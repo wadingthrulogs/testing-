@@ -1,0 +1,1639 @@
+
+<!DOCTYPE html>
+<html lang="en-US" class="no-js no-svg">
+<head>
+	<!--BE Head: Start-->
+	
+<!-- be_ixf, sdk, gho-->
+<meta name="be:sdk" content="php_sdk_1.4.28" />
+<meta name="be:timer" content="11ms" />
+<meta name="be:orig_url" content="https%3A%2F%2Fwww.kyriba.com%2F" />
+<meta name="be:norm_url" content="https%3A%2F%2Fwww.kyriba.com%2F" />
+<meta name="be:capsule_url" content="https%3A%2F%2Fixfd-api.bc0a.com%2Fapi%2Fixf%2F1.0.0%2Fget_capsule%2Ff00000000189136%2F01965619502" />
+<meta name="be:api_dt" content="py_2020;pm_10;pd_07;ph_01;pmh_06;p_epoch:1.60203277728E+12" />
+<meta name="be:mod_dt" content="py_2020;pm_10;pd_07;ph_01;pmh_06;p_epoch:1.60203277728E+12" />
+<meta name="be:diag" content="R4gzDZqUv/GjguRVu0NgUDTFrztsVraKzVINjgh14uJQpx1x+UZGyLsj/vs22XIBwZMvaEaLSC7SVaHuzw7iZqfn/0rRr9rx8n7wLeQzb+9Wj9XM+AiRUgsvAlIsZEJYk7IbO4DT6Gj5USazD4hwSBj7IDP1RIAnUJ2Hsz0bhf21C5rWkIibeK3uA/om+pDMuZe6AJsF6VvTeLy5J43jpGI59xj0rRlkFWzTfyeoTKrnoh82EG5QP0x8jXsaYK2Uy+oa3xjpnpc8p7RNDsN0gl8DlmhR1N8A26aSuatYYCmJumTv6kWbfmtzdKHMrhRtFMeQEtBWZo7WCuBDHcIK4oJu+gS3tv7+NM986lf73Eoq2snMLC9Z6aYb4ZwXIxoWvEtzmP+U62T/x3wwcnD0t0xjgqFGmZt0+enYUtIbYleB/Uyo+RKIdumsbTfAVO12MP65uSWxq7hbSrnp1d4xAu255B6NdX9h6Zn0XvoFuyp4KngdCW86Xjt7fL35kvkjJCsDpL5g2eWw0ajj7tScGWU4+nJNLCzcou1B7OsOldlyMkP2Abqpax8pgijqBrehDooTUZVOpyu90TVr0Z0124E9A5UqgIGHGe2tRJUUGAP8VTJGkw+WSo7kHsCgiMw8cusT+LDFJXCjyeWokBhSfv2NfduR4bejHJc1HfYrayiuUanv/hdDxwuTKZ/TP8WHxqyj14pTVshMwiU5xOGXJZZaP1A/rH04VektyP1rRMBnukQsx3wF9wZqRj6DslxdhL/6NrdhQBqNkC549MYe3bDdE5KSrYZCGNg4lu02FzxfwA26aWJBPIem3H+UIMw4zC77bDLZTIxx7H/OBUfazpeni4BJPXoR78np9/7Srl1NufXMcCXaVCwVAW/WhSokdRhhTtwXmQ2sLN5v99KWANQDIq1E2hGplVer9odKjxMiAVTlgUKRiZlNv5AyZkBw6m2qqNyEr1lBuBZbOYY50al2Df8dDbiNtm+U9KrbiK7JndfhfjnS5/rDKxPXY7NtUmyyTKmKqCHrNwx4pcoI3zXwnB1nJ1NqCYiTPdbloGZs1KxxOoL85VWKpedbt2L74RLEwhmG1wWrcuYx1WaRdabm7JhGGHVsHDNRMQo0kOBk0iEnIr7gsIN9fAMtsha1sPF35IsowxwJLvxWdjBOxvI2rXXSseD1S8wxayHBKTuAT/e7DhbxH+k25k7kD/rZFVOlT565ZLfw42KSepebLRV53hqVvZKjiU3FhK9XBTpaoAtYr3TSBsmsOEaHT+pDn339w6pMwf9SyifJP2oq5DSOAU4nV+A6sr+wgKz4glKcggJtaIrKyHpdVXc5by3dDmL4XI9cYz6LauECvElRgf/tRiF/ierTG4VLbToda5x+JZ39UF+oMCnjDDMwaAFbTmrviYcAUlcyZOryAEdthGKk58auoTvXqoIjLmQnsKAtJH9eVyBGIKDo8pU6GzWMV+AjPSUnEgy7eZdcxSNExT+8FIKKbDsR4ZacPjvh2b6oE/4x3tKwRiJXN0Of8l1gTYks0fZkfO+TlUCTde2aNbVx9LALGJGMHAKiFsAXApZ5fJnuUS3BNPs4w4yWJ/aJdl8X3o0hZRiEYuVbOEYzG2Lx6p/LwwSw++BtOL+y55lCmaSmO/UZspdD7FfNL2UoOI0JoJy4eywzuqGp0TZJ5zdletldUhK7yntGh4X+lKfnUa4Qoj7j9TQO64pJvEuWdm1fjAxFhwYuZCXy2d5Li1r4EfdfmV1lpuYudT18Uf+KfpDxrITgdUlb1p55Hi7TQRQRyUnUW+G7Wigs10JhyN9+/h4oCUU30vfd1sCl/vXIi/zy5N4b1APmUttPSzX2ZrKOrq8Fc2cTkloQrqJ/fSl4Sc1gNcUTIzP72JWWMI+AOPJBWU43YUVs0xT9HGFeFQBbto7NyetcUj0pbkRuA4N/83xchOMhxzKtkiYbDIRn/ZrluKRhVFCjRErJFfAzYeIWkL4bfRZiio3qwuAdEXwI5HFMC+ExK2VvaOv9C2hXWRt5AfeSUtgvfA3UY2r5Cj4ykt6pQ7i0/fJtWqVnX1QZ8hTn33AbtEvudGCP2XElJ4cT2/iDalXzyEF0407x8NMO1ZzvETpsinNElZ98s/HIC9LVf6Y01eWHPAoGDLKfhSky5Gi4sRmJtEpeY1nnAqZZ3AS2OFcawqC5LJSqO732HdjAIXj6KOPw5FsIL1o=" />
+<meta name="be:messages" content="false" />
+<style>
+.be-ix-link-block{clear:both}
+.be-ix-link-block .be-related-link-container{}
+.be-ix-link-block .be-related-link-container .be-label,.be-ix-link-block .be-related-link-container .be-list{font-size:13px}
+.be-ix-link-block .be-related-link-container .be-label{margin:0;font-weight:700;color:#000;text-transform:uppercase}
+.be-ix-link-block .be-related-link-container .be-list{list-style:none;margin:0;padding:0}
+.be-ix-link-block .be-related-link-container .be-list .be-list-item{margin:0;padding:0}
+.be-ix-link-block .be-related-link-container .be-list .be-list-item a{letter-spacing:-.1px;color:#000}
+.be-ix-link-block .be-related-link-container .be-list .be-list-item a:hover{color:#00C37F}
+@media (max-width: 767px) {
+.be-ix-link-block .be-related-link-container{margin-bottom:20px}
+.be-ix-link-block .be-related-link-container .be-label,.be-ix-link-block .be-related-link-container .be-list{font-size:14px}
+.be-ix-link-block .be-related-link-container .be-label{width:100%;margin-bottom:15px}
+.be-ix-link-block .be-related-link-container .be-list{display:block;width:100%}
+.be-ix-link-block .be-related-link-container .be-list .be-list-item{display:block;margin-bottom:4px}
+}
+@media (min-width: 768px) {
+.be-ix-link-block .be-related-link-container{display:flex}
+.be-ix-link-block .be-related-link-container .be-label{display:inline-block;margin-right:20px;flex-basis:130px;flex-grow:0;flex-shrink:0}
+.be-ix-link-block .be-related-link-container .be-list{display:inline-block;width:auto}
+.be-ix-link-block .be-related-link-container .be-list .be-list-item{display:inline-block;margin-right:20px}
+.be-ix-link-block .be-related-link-container .be-list .be-list-item:last-child{margin-right:0}
+}
+</style>
+
+
+<script data-cfasync="false" id="marvel" data-customerid="f00000000189136" src="https://marvel-b2-cdn.bc0a.com/marvel.js"></script>
+
+    <script>
+      (function() {
+      var bec = document.createElement('script');
+      bec.type = 'text/javascript';
+      bec.async = true;
+      bec.setAttribute("data-id", "bec");
+      bec.setAttribute("org-id", "f00000000189136");
+      bec.setAttribute("domain", ".kyriba.com");
+      bec.setAttribute("session-timeout", 86400000);
+      bec.src = document.location.protocol + '//cdn.b0e8.com/conv_v3.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(bec, s);
+})();
+</script>
+	<!--BE Head: End-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<title>Kyriba | SaaS Treasury Management Software</title>
+<link rel="alternate" hreflang="en-us" href="https://www.kyriba.com" />
+<link rel="alternate" hreflang="fr-fr" href="https://www.kyriba.fr" />
+<link rel="alternate" hreflang="it-it" href="https://www.kyriba.it" />
+<link rel="alternate" hreflang="es-es" href="https://www.kyriba.es" />
+<link rel="alternate" hreflang="en-gb" href="https://www.kyriba.uk" />
+
+<!-- This site is optimized with the Yoast SEO plugin v12.7.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Kyriba treasury software is comprised of a set of powerful products that span treasury, risk, payments and working capital. Try Now!"/>
+<meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<link rel="canonical" href="https://www.kyriba.com/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Kyriba | SaaS Treasury Management Software" />
+<meta property="og:description" content="Kyriba treasury software is comprised of a set of powerful products that span treasury, risk, payments and working capital. Try Now!" />
+<meta property="og:url" content="https://www.kyriba.com/" />
+<meta property="og:site_name" content="Kyriba" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Kyriba treasury software is comprised of a set of powerful products that span treasury, risk, payments and working capital. Try Now!" />
+<meta name="twitter:title" content="Kyriba | SaaS Treasury Management Software" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.kyriba.com/#website","url":"https://www.kyriba.com/","name":"Kyriba","description":"Treasury Management Software | SaaS Workstation","potentialAction":{"@type":"SearchAction","target":"https://www.kyriba.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"WebPage","@id":"https://www.kyriba.com/#webpage","url":"https://www.kyriba.com/","inLanguage":"en-US","name":"Kyriba | SaaS Treasury Management Software","isPartOf":{"@id":"https://www.kyriba.com/#website"},"datePublished":"2019-08-03T09:45:44+00:00","dateModified":"2020-03-24T19:59:03+00:00","description":"Kyriba treasury software is comprised of a set of powerful products that span treasury, risk, payments and working capital. Try Now!"}]}</script>
+<!-- / Yoast SEO plugin. -->
+
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://www.kyriba.com/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='cms-navigation-style-base-css'  href='https://www.kyriba.com/wp-content/cache/min/1/wp-content/plugins/wpml-cms-nav/res/css/cms-navigation-base-552f0052272384e122c46cf385fe8e4c.css' type='text/css' media='screen' />
+<link data-minify="1" rel='stylesheet' id='cms-navigation-style-css'  href='https://www.kyriba.com/wp-content/cache/min/1/wp-content/plugins/wpml-cms-nav/res/css/cms-navigation-ac6ea02fa2472a17203b35f8b314a52e.css' type='text/css' media='screen' />
+<link data-minify="1" rel='stylesheet' id='themedev-cookiecuttr-css'  href='https://www.kyriba.com/wp-content/cache/min/1/wp-content/themes/kyriba/assets/css/cookiecuttr-f494bebcfd3c9eba87e03c3cee205a65.css' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='themedev-slick-css'  href='https://www.kyriba.com/wp-content/cache/min/1/wp-content/themes/kyriba/assets/css/slick-c7e1c648608530b3d7e0c6f353110260.css' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='themedev-aos-css-css'  href='https://www.kyriba.com/wp-content/cache/min/1/wp-content/themes/kyriba/assets/css/aos-4c3b0269b7481dc15ed8cfa2026747ed.css' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='themedev-animate-css'  href='https://www.kyriba.com/wp-content/cache/min/1/wp-content/themes/kyriba/assets/css/animate-479c81ead914dd56cf183c2d4e2431dc.css' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='themedev-font-awesome-css'  href='https://www.kyriba.com/wp-content/cache/min/1/wp-content/themes/kyriba/assets/css/font-awesome-0bf986227999014a8341030ac5269ae1.css' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='themedev-odometer-theme-slot-machine-css'  href='https://www.kyriba.com/wp-content/cache/min/1/wp-content/themes/kyriba/assets/css/odometer-theme-slot-machine-06de587b2be91f96a0c76670e050fa8e.css' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='themedev-magnific-popup-css'  href='https://www.kyriba.com/wp-content/cache/min/1/wp-content/themes/kyriba/assets/css/magnific-popup-1e3910386d26a4b3b51a4433ecb39839.css' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='themedev-style2-css'  href='https://www.kyriba.com/wp-content/cache/min/1/wp-content/themes/kyriba/style-2-03d1656080f6426a1d103028cc86159d.css' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='themedev-style3-css'  href='https://www.kyriba.com/wp-content/cache/min/1/wp-content/themes/kyriba/style-3-f5f48c4d19aff319c235b7be58aa0823.css' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='themedev-style4-css'  href='https://www.kyriba.com/wp-content/cache/min/1/wp-content/themes/kyriba/style-4-385f14cd3fbf182a4a7cc7f295df3656.css' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='themedev-stylevssl1-css'  href='https://www.kyriba.com/wp-content/cache/min/1/wp-content/themes/kyriba/style-vssl-1-ddc06b0b67885be3b848f5e16b6f4afd.css' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='themedev-stylekyriba1-css'  href='https://www.kyriba.com/wp-content/cache/min/1/wp-content/themes/kyriba/style-kyriba-custom-c292c8787cc72991e2c0c4392cf539f7.css' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='themedev-style-css'  href='https://www.kyriba.com/wp-content/cache/min/1/wp-content/themes/kyriba/style-3a6618b039a233772c21fae1aaf0273f.css' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='themedev-responsive-css'  href='https://www.kyriba.com/wp-content/cache/min/1/wp-content/themes/kyriba/responsive-7f4edb21771b5717e803eaf4327f003c.css' type='text/css' media='all' />
+<link rel='stylesheet' id='addtoany-css'  href='https://www.kyriba.com/wp-content/cache/busting/1/wp-content/plugins/add-to-any/addtoany.min-1.15.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/cache/busting/1/wp-includes/js/jquery/jquery-1.12.4-wp.js'></script>
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/cache/busting/1/wp-includes/js/jquery/jquery-migrate.min-1.4.1.js'></script>
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/cache/busting/1/wp-content/plugins/sitepress-multilingual-cms/res/js/jquery.cookie-4.3.6.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpml_cookies = {"wp-wpml_current_language":{"value":"en","expires":1,"path":"\/"}};
+var wpml_cookies = {"wp-wpml_current_language":{"value":"en","expires":1,"path":"\/"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/cache/busting/1/wp-content/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie-4.3.6.js'></script>
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/cache/busting/1/wp-content/plugins/add-to-any/addtoany.min-1.1.js'></script>
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/themes/kyriba/assets/js/jquery_cookie.js'></script>
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/themes/kyriba/assets/js/jquery.cookiecuttr.js'></script>
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/themes/kyriba/assets/js/uwt1.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpml_xdomain_data = {"css_selector":"wpml-ls-item","ajax_url":"https:\/\/www.kyriba.com\/wp-admin\/admin-ajax.php","current_lang":"en"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/cache/busting/1/wp-content/plugins/sitepress-multilingual-cms/res/js/xdomain-data-4.3.6.js'></script>
+<link rel='https://api.w.org/' href='https://www.kyriba.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.kyriba.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.kyriba.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='https://www.kyriba.com/' />
+<meta name="generator" content="WPML ver:4.3.6 stt:1,65,4,27,2;" />
+
+<script data-cfasync="false">
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+a2a_config.icon_color="transparent,#707070";
+(function(d,s,a,b){a=d.createElement(s);b=d.getElementsByTagName(s)[0];a.async=1;a.src="https://static.addtoany.com/menu/page.js";b.parentNode.insertBefore(a,b);})(document,"script");
+</script>
+<!-- Stream WordPress user activity plugin v3.4.2 -->
+<link rel="shortcut icon" href="https://www.kyriba.com/wp-content/uploads/2019/09/favicon-1.ico"/> 		<style type="text/css" id="wp-custom-css">
+			.ms-p { 
+	font-size: 36px;
+  color: #fff;
+	text-align: center;
+}
+/** Microsoft Dynamics **/
+body.partner-resources .sign-up-sec { padding: 20px 0 60px; }
+body.microsoft-dynamics-365 .newell-shape-img { display: none; }
+body.microsoft-dynamics-365 .video-content-sec { padding: 100px 0 0; }
+body.microsoft-dynamics-365 .center-content-sec { max-width: unset; }
+body.microsoft-dynamics-365 .counter-sec { padding: 50px 0 250px; }
+body.microsoft-dynamics-365 .activate-liquidity-sec { padding: 100px 0 140px; }
+body.microsoft-dynamics-365 .kyriba-diffnt-sec { background: #fff; }
+body.microsoft-dynamics-365 .get-touch-form select { text-indent: 90px; }
+body.microsoft-dynamics-365 .get-touch-main-sec { background: #023cba; }
+body.microsoft-dynamics-365 .testimonial-sec .testimonial-fluid blockquote: before,
+body.microsoft-dynamics-365 .testimonial-sec .testimonial-fluid blockquote: after { display: none }
+
+/** Kyriba Mid-market **/
+
+body.kyriba-for-mid-market .center-content-sec { max-width: 1200px; }
+
+body.kyriba-for-mid-market .white-forecast-sec { padding: 50px 0; }
+
+body.kyriba-for-mid-market .kyriba-active-sec { padding-top: 200px; }
+
+body.kyriba-for-mid-market .no-callout-box { padding-bottom: 0; }
+
+body.kyriba-for-mid-market .menu-main,
+body.kyriba-for-mid-market .foo-sec,
+body.kyriba-for-mid-market .foo-disc hr { display: block; }
+body.postid-25123 .video-content-sec { padding: 50px 0 200px; }
+body.postid-25123 .activate-liquidity-sec { padding: 255px 0 155px; }
+
+body.postid-27393 .home-banner-content { max-width: 700px; }
+
+body.postid-27393 .mm-mid-box { height: 360px; }
+
+/** Kyriba Partners **/
+body.page-id-25973 .team-list-blog-wrap,
+body.page-id-25999 .team-list-blog-wrap,
+body.page-id-26861 .team-list-blog-wrap,
+body.page-id-26865 .team-list-blog-wrap,
+body.page-id-26877 .team-list-blog-wrap {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+body.page-id-25973 .team-list-blog-row,
+body.page-id-25999 .team-list-blog-row,
+body.page-id-26861 .team-list-blog-row,
+body.page-id-26865 .team-list-blog-row,
+body.page-id-26877 .team-list-blog-row { width: 33%; }
+
+/* ERP page */
+body.migration-erp-cloud .white-forecast-sec,
+body.erp-cloud-migration .white-forecast-sec { padding: 100px 0; }
+body.migration-erp-cloud .video-content-sec,
+body.erp-cloud-migration .video-content-sec { padding: 50px 0 100px; }
+body.migration-erp-cloud .kyriba-diffnt-sec,
+body.erp-cloud-migration .kyriba-diffnt-sec { background-color: #fff; }
+body.migration-erp-cloud .testimonial-video-wrap,
+body.erp-cloud-migration .testimonial-video-wrap { padding: 0; }
+body.migration-erp-cloud .testimonial-video-wrap img,
+body.erp-cloud-migration .testimonial-video-wrap img { width: 100%; }
+.erp-quote { 
+	font-size: 30px;
+	position: relative;
+	margin: auto;
+}
+
+/** Privacy Menu **/
+.bar-content-left { padding: 0; }
+#menu-item-26789 { line-height: 1.5; }
+#menu-item-9445 { margin-top: -12px; ; }
+
+/** Media Queries **/
+@media only screen and (max-width: 991px) {
+	body.kyriba-for-mid-market .header-main .menu-btn { display: block; }
+}
+
+@media only screen and (max-width: 772px) {
+body.page-id-25973 .team-list-blog-row,
+body.page-id-25999 .team-list-blog-row,
+body.page-id-26861 .team-list-blog-row,
+body.page-id-26865 .team-list-blog-row,
+body.page-id-26877 .team-list-blog-row { width: 100%; }	
+}
+
+@media only screen and (max-width: 768px) {
+body.postid-25123 .activate-liquidity-sec { padding: 150 0; }
+.ms-p { font-size: 24px; }
+	}
+		</style>
+			<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+	<script src='https://client-registry.mutinycdn.com/personalize/client/4fc18f29bc3a2a06.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js'></script>
+	<script type="module" src='https://www.kyriba.com/wp-content/themes/kyriba/assets/js/countUp.custome.js'></script>
+			<meta name="google-site-verification" content="xjWXkgcc3KylQ_djlSwG78nw_iIeH3exEBwq69B1H-Y" />
+
+<!-- Google Tag Manager -->
+<script>if (jQuery.cookie('cc_cookie_decline') == "cc_cookie_decline") {
+// do nothing 
+} else {
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-79XPV');
+}
+</script>
+<!-- End Google Tag Manager -->			
+</head>
+
+<body class="home page-template-default page page-id-157 en">
+	<input type="hidden" value="https://www.kyriba.com">
+
+			<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-79XPV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->		
+	
+	<div class="header-top new-class">
+	<header id="masthead" class="site-header" role="banner">
+		<div class="header-main cf">
+		<a href="https://www.kyriba.com" title="Kyriba" class="logo kyriba-en-logo">
+	
+                                      <img src="https://www.kyriba.com/wp-content/uploads/2019/08/logo.svg" class="svg" alt="logo">
+													<img src="https://www.kyriba.com/wp-content/uploads/2019/09/black-logo2.svg" alt="black logo" class="black-logo"/>
+						  </a>		  
+		  <div class="menu-sec cf">
+	<div class="main cf">
+	<a href="#" title="close" class="menu-btn"> <span></span> <span></span>
+		<span></span>
+	</a>
+	<div class="menu-main-toggle">
+		<div class="menu-main-container">
+			<div class="menu-main">
+							<ul class="menu-top">
+										    					<li class="menu-type-1 menu-type  has-submenu sub-menu-open"><a
+    						href="/active-liquidity-network/" title="PRODUCTS">PRODUCTS</a>
+    						    						<div class="menu-items">
+    							<div class="menu-row">    								
+    								
+    																    	<div class="menu-left ">
+        									<div class="menu-left-content ">
+        										<i class="menu-left-icn"> <img src="https://www.kyriba.com/wp-content/uploads/2019/09/kyriba-platform.svg" alt="icon" /> </i>        										<h6>The Active Liquidity Network</h6>        										<p>Go beyond traditional treasury management systems to activate and protect enterprise-wide liquidity in ways never before possible.</p>
+        										<a href="/active-liquidity-network/" title="Learn more" class="small-btn">Learn more</a>        										
+        									</div>
+        									    									</div>
+									    								    																																																					<div class="menu-right">
+                    									<div class="back-btn">
+                    										<a href="#" title="Products" class="back-btn-link"><i
+                    											class="fa fa-angle-left"></i>PRODUCTS</a>
+                    									</div>
+                    									<div class="menu-right-top">
+                    										<div class="menu-right-col-6">
+                    											<div class="menu-col-6-content">
+                    												<h6>Kyriba Products</h6><ul  class="menu-links"><li id="menu-item-5835" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-5835"><a title="Treasury Management" href="https://www.kyriba.com/products/treasury-management/">Treasury Management</a></li>
+<li id="menu-item-5837" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-5837"><a title="Payments Hub" href="https://www.kyriba.com/products/payments/">Payments</a></li>
+<li id="menu-item-5836" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-5836"><a title="Risk Management" href="https://www.kyriba.com/products/risk-management/">Risk Management</a></li>
+<li id="menu-item-5838" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-5838"><a title="Working Capital" href="https://www.kyriba.com/products/working-capital-management/">Working Capital</a></li>
+</ul>
+                    											</div>
+                    										</div>
+                    										<div class="menu-right-col-6">
+                    											<div class="menu-col-6-content">
+                    												<h6>Embedded Capabilities</h6><ul  class="menu-links"><li id="menu-item-5831" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-5831"><a title="Security" href="https://www.kyriba.com/products/capabilities/security/">Security</a></li>
+<li id="menu-item-5832" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-5832"><a title="Connectivity" href="https://www.kyriba.com/products/capabilities/connectivity/">Connectivity</a></li>
+<li id="menu-item-9098" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-9098"><a href="https://www.kyriba.com/products/capabilities/data-visualization/">Data Visualization</a></li>
+<li id="menu-item-5834" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-5834"><a title="SaaS" href="https://www.kyriba.com/products/capabilities/saas-solution/">SaaS</a></li>
+</ul>
+                    											</div>
+                    										</div>
+                    									</div>
+                										<div class="menu-right-bottom"><div class="menu-right-form cf"><ul>
+<li><a title="SEE PRODUCTS IN ACTION" href="https://info.kyriba.com/wbn/demo-webinar-2020" target="_blank" rel="noopener">SEE PRODUCTS IN ACTION</a></li>
+<li><a title="WHY KYRIBA" href="/solutions/">WHY KYRIBA</a></li>
+</ul>
+</div></div>                									
+                    								</div>
+											    										
+    									    								
+    								    								
+    							</div>
+    						</div>
+											</li>
+									    					<li class="menu-type-2 menu-type  has-submenu sub-menu-open"><a
+    						href="/solutions/" title="SOLUTIONS">SOLUTIONS</a>
+    						    						<div class="menu-items">
+    							<div class="menu-row">    								
+    								
+    																    	<div class="menu-left ">
+        									<div class="menu-left-content ">
+        										<i class="menu-left-icn"> <img src="https://www.kyriba.com/wp-content/uploads/2019/09/solutions.svg" alt="icon" /> </i>        										<h6>Kyriba for Mid-market</h6>        										<p>Kyriba for Mid-market is designed for emerging enterprises that require greater automation, visibility and control over their cash and liquidity.</p>
+        										<a href="/solutions/kyriba-for-mid-market/" title="Learn more" class="small-btn">Learn more</a>        										
+        									</div>
+        									    									</div>
+									    								    								    											<div class="menu-right">
+                									<div class="back-btn">
+                										<a href="#" title="Products" class="back-btn-link"><i
+                											class="fa fa-angle-left"></i>SOLUTIONS</a>
+                									</div>
+                									<div class="menu-right-top">
+                										<div class="menu-tab-sec">
+                											                											<ul class="menu-tab-main">
+                												                													                    													<li class="has-submenu2"><a href="#" title="BY USE CASE"
+                    													class="menu-tab-title active" data-click="1"> <i
+                    														class="menu-tab-icn"> <img src="https://www.kyriba.com/wp-content/uploads/2019/08/menu-solution-icn1.svg" alt="menu-solution-icn" /></i> 
+                    															<span>USE CASE</span></a>
+                                													<div class="menu-tab-submenu" data-show="1">
+                                														<span class="submenu-back"><a href="#" title="BY USE CASE"
+                            																class="back-btn-link"><i class="fa fa-angle-left"></i>USE CASE</a>
+                            															</span>
+                                														<ul  class="menu-tab-submenu-list"><li id="menu-item-5812" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-5812"><a title="CASH VISIBILITY" href="https://www.kyriba.com/solutions/use-case/cash-visibility/">CASH VISIBILITY</a></li>
+<li id="menu-item-9099" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-9099"><a title="FX RISK MANAGEMENT" href="https://www.kyriba.com/solutions/use-case/currency-risk/">FX RISK MANAGEMENT</a></li>
+<li id="menu-item-5813" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-5813"><a title="CENTRALIZE PAYMENTS" href="https://www.kyriba.com/solutions/use-case/centralize-payments/">CENTRALIZE PAYMENTS</a></li>
+<li id="menu-item-25583" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25583"><a href="https://www.kyriba.com/solutions/use-case/erp-migration">ERP MIGRATION</a></li>
+<li id="menu-item-5814" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-5814"><a title="FRAUD PREVENTION" href="https://www.kyriba.com/solutions/use-case/fraud-prevention/">FRAUD PREVENTION</a></li>
+<li id="menu-item-9100" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-9100"><a title="AUDIT &#038; COMPLIANCE" href="https://www.kyriba.com/solutions/use-case/compliance/">AUDIT &#038; COMPLIANCE</a></li>
+<li id="menu-item-5815" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-5815"><a title="WORKING CAPITAL" href="https://www.kyriba.com/solutions/use-case/working-capital/">WORKING CAPITAL</a></li>
+</ul>                            														</div>
+                    													</li>
+                													                													                    													<li class="has-submenu2"><a href="#" title="BY USE CASE"
+                    													class="menu-tab-title " data-click="2"> <i
+                    														class="menu-tab-icn"> <img src="https://www.kyriba.com/wp-content/uploads/2019/08/menu-solution-icn2.svg" alt="menu-solution-icn" /></i> 
+                    															<span>INDUSTRY</span></a>
+                                													<div class="menu-tab-submenu" data-show="2">
+                                														<span class="submenu-back"><a href="#" title="BY USE CASE"
+                            																class="back-btn-link"><i class="fa fa-angle-left"></i>INDUSTRY</a>
+                            															</span>
+                                														<ul  class="menu-tab-submenu-list"><li id="menu-item-9103" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-9103"><a title="Financial Services" href="https://www.kyriba.com/solutions/industry/financial-services/">Financial Services</a></li>
+<li id="menu-item-9106" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-9106"><a title="Healthcare" href="https://www.kyriba.com/solutions/industry/healthcare/">Healthcare</a></li>
+<li id="menu-item-9105" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-9105"><a title="Higher Education" href="https://www.kyriba.com/solutions/industry/higher-education/">Higher Education</a></li>
+<li id="menu-item-9104" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-9104"><a title="Insurance" href="https://www.kyriba.com/solutions/industry/insurance/">Insurance</a></li>
+<li id="menu-item-9107" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-9107"><a title="Real Estate" href="https://www.kyriba.com/solutions/industry/real-estate/">Real Estate</a></li>
+<li id="menu-item-6876" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-6876"><a title="Retail" href="https://www.kyriba.com/solutions/industry/retail/">Retail</a></li>
+</ul>                            														</div>
+                    													</li>
+                													                													                    													<li class="has-submenu2"><a href="#" title="BY USE CASE"
+                    													class="menu-tab-title " data-click="3"> <i
+                    														class="menu-tab-icn"> <img src="https://www.kyriba.com/wp-content/uploads/2019/08/menu-solution-icn3.svg" alt="menu-solution-icn" /></i> 
+                    															<span>ROLE</span></a>
+                                													<div class="menu-tab-submenu" data-show="3">
+                                														<span class="submenu-back"><a href="#" title="BY USE CASE"
+                            																class="back-btn-link"><i class="fa fa-angle-left"></i>ROLE</a>
+                            															</span>
+                                														<ul  class="menu-tab-submenu-list"><li id="menu-item-6879" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-6879"><a title="CFO" href="https://www.kyriba.com/solutions/role/cfo/">CFO</a></li>
+<li id="menu-item-6878" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-6878"><a title="Treasury" href="https://www.kyriba.com/solutions/role/treasury/">Treasury</a></li>
+<li id="menu-item-6880" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-6880"><a title="IT" href="https://www.kyriba.com/solutions/role/it/">IT</a></li>
+</ul>                            														</div>
+                    													</li>
+                													                												
+                											</ul>
+                											                										</div>
+                									</div>
+                									
+                									<div class="menu-right-bottom"><div class="menu-right-form cf"><ul>
+<li><a title="VIEW ALL INDUSTRIES" href="/solutions/industry/">VIEW ALL INDUSTRIES</a></li>
+<li><a title="FAQS" href="/resources/faqs/">FAQS</a></li>
+</ul>
+</div></div>                									
+                								</div>
+    								
+    								    								
+    							</div>
+    						</div>
+											</li>
+									    					<li class="menu-type-3 menu-type  has-submenu sub-menu-open"><a
+    						href="/customers/" title="CUSTOMERS">CUSTOMERS</a>
+    						    						<div class="menu-items">
+    							<div class="menu-row">    								
+    								
+    																    	<div class="menu-left ">
+        									<div class="menu-left-content ">
+        										<i class="menu-left-icn"> <img src="https://www.kyriba.com/wp-content/uploads/2019/08/client-logo2.svg" alt="icon" /> </i>        										        										<p>"As a small team, we needed a secure, robust and scalable solution that integrated well with our systems ... We found that among other technology partners, Kyriba was best aligned to support our needs."<span class="menu-left-name">- Johan Bergqvist, Spotify VP, Corporate Finance & Treasury</span></p>
+        										<a href="/resource/spotify-makes-treasury-music/" title="Read more" class="small-btn">Read more</a>        										
+        									</div>
+        									    									</div>
+									    								    																																																				<div class="menu-right">
+                									<div class="back-btn">
+                										<a href="#" title="CUSTOMERS" class="back-btn-link"><i
+                											class="fa fa-angle-left"></i>CUSTOMERS</a>
+                									</div>
+                									<div class="menu-right-top">
+                										<div class="menu-right-col-12">
+                											<div class="menu-col-6-content">
+                												<ul  class="menu-links"><li id="menu-item-4836" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4836"><a title="Our Customers" href="https://www.kyriba.com/customers/">Our Customers</a></li>
+<li id="menu-item-5830" class="menu-item menu-item-type-taxonomy menu-item-object-resourcetype menu-item-5830"><a title="Success Stories" href="https://www.kyriba.com/resources/success-stories/">Success Stories</a></li>
+<li id="menu-item-9101" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9101"><a href="https://www.kyriba.com/customers/experience/">Customer Experience</a></li>
+<li id="menu-item-4840" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4840"><a title="Conferences" href="https://www.kyriba.com/company/events/">Conferences</a></li>
+<li id="menu-item-4841" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4841"><a title="Community" target="_blank" rel="noopener noreferrer" href="http://kyriba.force.com/social/Login">Community</a></li>
+</ul>
+                											</div>
+                											
+                										</div>
+                									</div>
+            										                									
+            									</div>
+											    										
+    									    								
+    								    								
+    							</div>
+    						</div>
+											</li>
+									    					<li class="menu-type-4 menu-type  has-submenu sub-menu-open"><a
+    						href="/partner-ecosystem/" title="PARTNERS">PARTNERS</a>
+    						    						<div class="menu-items">
+    							<div class="menu-row">    								
+    								
+    																    	<div class="menu-left ">
+        									<div class="menu-left-content ">
+        										<i class="menu-left-icn"> <img src="https://www.kyriba.com/wp-content/uploads/2019/09/partners.svg" alt="icon" /> </i>        										<h6>The Partner Ecosystem</h6>        										<p>Kyriba is committed to the growth and success of its partners, and provides a range of flexible programs to meet partner needs.</p>
+        										<a href="/partner-ecosystem/" title="Learn more" class="small-btn">Learn more</a>        										
+        									</div>
+        									    									</div>
+									    								    																																																				<div class="menu-right">
+                									<div class="back-btn">
+                										<a href="#" title="CUSTOMERS" class="back-btn-link"><i
+                											class="fa fa-angle-left"></i>PARTNERS</a>
+                									</div>
+                									<div class="menu-right-top">
+                										<div class="menu-right-col-12">
+                											<div class="menu-col-6-content">
+                												<ul  class="menu-links"><li id="menu-item-4853" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4853"><a title="Become a Partner" href="https://www.kyriba.com/partners/become-a-partner/">Become a Partner</a></li>
+<li id="menu-item-4852" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4852"><a title="Locate a Partner" href="https://www.kyriba.com/partners/our-partners-worldwide/">Locate a Partner</a></li>
+<li id="menu-item-4850" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4850"><a title="Partner Resources" href="https://www.kyriba.com/partners/partner-resources/">Partner Resources</a></li>
+<li id="menu-item-27167" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27167"><a href="https://www.kyriba.com/partners/microsoft-dynamics-365/">Microsoft Dynamics 365 Finance</a></li>
+</ul>
+                											</div>
+                											
+                										</div>
+                									</div>
+            										                									
+            									</div>
+											    										
+    									    								
+    								    								
+    							</div>
+    						</div>
+											</li>
+									    					<li class="menu-type-5 menu-type  has-submenu sub-menu-open"><a
+    						href="/resources/" title="RESOURCES">RESOURCES</a>
+    						    						<div class="menu-items">
+    							<div class="menu-row">    								
+    								
+    																    	<div class="menu-left ">
+        									<div class="menu-left-content ">
+        										<i class="menu-left-icn"> <img src="https://www.kyriba.com/wp-content/uploads/2019/09/resources.svg" alt="icon" /> </i>        										<h6>Kyriba Resource Hub</h6>        										<p>From webinars and case studies to eBooks and fact sheets, Kyriba offers an array of resources to keep you up-to-date with industry best practices and give you better insight into the latest treasury and finance offerings.</p>
+        										<a href="/resources/" title="Learn more" class="small-btn">Learn more</a>        										
+        									</div>
+        									    									</div>
+									    								    								    											<div class="menu-right">
+                									<div class="back-btn">
+                										<a href="#" title="Products" class="back-btn-link"><i
+                											class="fa fa-angle-left"></i>RESOURCES</a>
+                									</div>
+                									<div class="menu-right-top">
+                										<div class="menu-tab-sec">
+                											                											<ul class="menu-tab-main">
+                												                													                    													<li class="has-submenu2"><a href="#" title="BY USE CASE"
+                    													class="menu-tab-title active" data-click="1"> <i
+                    														class="menu-tab-icn"> <img src="https://www.kyriba.com/wp-content/uploads/2019/08/menu-solution-icn1.svg" alt="menu-solution-icn" /></i> 
+                    															<span>Insight</span></a>
+                                													<div class="menu-tab-submenu" data-show="1">
+                                														<span class="submenu-back"><a href="#" title="BY USE CASE"
+                            																class="back-btn-link"><i class="fa fa-angle-left"></i>Insight</a>
+                            															</span>
+                                														<ul  class="menu-tab-submenu-list"><li id="menu-item-4978" class="menu-item menu-item-type-taxonomy menu-item-object-resourcetype menu-item-4978"><a title="Webinars" href="https://www.kyriba.com/resources/webinars/">Webinars</a></li>
+<li id="menu-item-4979" class="menu-item menu-item-type-taxonomy menu-item-object-resourcetype menu-item-4979"><a title="eBooks" href="https://www.kyriba.com/resources/ebooks/">eBooks</a></li>
+<li id="menu-item-4980" class="menu-item menu-item-type-taxonomy menu-item-object-resourcetype menu-item-4980"><a title="Success Stories" href="https://www.kyriba.com/resources/success-stories/">Success Stories</a></li>
+<li id="menu-item-4981" class="menu-item menu-item-type-taxonomy menu-item-object-resourcetype menu-item-4981"><a title="FAQs" href="https://www.kyriba.com/resources/faqs/">FAQs</a></li>
+<li id="menu-item-4982" class="menu-item menu-item-type-taxonomy menu-item-object-resourcetype menu-item-4982"><a title="Videos" href="https://www.kyriba.com/resources/videos/">Videos</a></li>
+<li id="menu-item-21582" class="menu-item menu-item-type-taxonomy menu-item-object-resourcetype menu-item-21582"><a href="https://www.kyriba.com/resources/podcasts/">Podcasts</a></li>
+</ul>                            														</div>
+                    													</li>
+                													                													                    													<li class="has-submenu2"><a href="#" title="BY USE CASE"
+                    													class="menu-tab-title " data-click="2"> <i
+                    														class="menu-tab-icn"> <img src="https://www.kyriba.com/wp-content/uploads/2019/08/menu-solution-icn2.svg" alt="menu-solution-icn" /></i> 
+                    															<span>Product</span></a>
+                                													<div class="menu-tab-submenu" data-show="2">
+                                														<span class="submenu-back"><a href="#" title="BY USE CASE"
+                            																class="back-btn-link"><i class="fa fa-angle-left"></i>Product</a>
+                            															</span>
+                                														<ul  class="menu-tab-submenu-list"><li id="menu-item-4983" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4983"><a title="Fact Sheets" href="/resources/fact-sheets/">Fact Sheets</a></li>
+<li id="menu-item-8935" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8935"><a title="https://info.kyriba.com/RequestaDemo-KDC.html" target="_blank" rel="noopener noreferrer" href="https://info.kyriba.com/RequestaDemo-KDC.html">Demo</a></li>
+<li id="menu-item-16947" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16947"><a href="/active-liquidity-network/">Solution Overview</a></li>
+</ul>                            														</div>
+                    													</li>
+                													                													                    													<li class="has-submenu2"><a href="#" title="BY USE CASE"
+                    													class="menu-tab-title " data-click="3"> <i
+                    														class="menu-tab-icn"> <img src="https://www.kyriba.com/wp-content/uploads/2019/08/menu-solution-icn3.svg" alt="menu-solution-icn" /></i> 
+                    															<span>Connect</span></a>
+                                													<div class="menu-tab-submenu" data-show="3">
+                                														<span class="submenu-back"><a href="#" title="BY USE CASE"
+                            																class="back-btn-link"><i class="fa fa-angle-left"></i>Connect</a>
+                            															</span>
+                                														<ul  class="menu-tab-submenu-list"><li id="menu-item-8938" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8938"><a title="Blog" href="https://www.kyriba.com/blog/">Blog</a></li>
+<li id="menu-item-8939" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8939"><a title="Events" href="https://www.kyriba.com/company/events/">Events</a></li>
+<li id="menu-item-8940" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8940"><a title="Contact Us" href="https://www.kyriba.com/contact-kyriba/">Contact Us</a></li>
+</ul>                            														</div>
+                    													</li>
+                													                												
+                											</ul>
+                											                										</div>
+                									</div>
+                									
+                									<div class="menu-right-bottom"><div class="menu-right-form cf"><p>Get the inside scoop on news and updates from Kyriba!<br />
+
+                <div class='gf_browser_unknown gform_wrapper' id='gform_wrapper_3' ><div id='gf_3' class='gform_anchor' tabindex='-1'></div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_3' id='gform_3'  action='/#gf_3'>
+                        <div class='gform_body'><ul id='gform_fields_3' class='gform_fields top_label form_sublabel_below description_below'><li id='field_3_2'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_3_2' >Your email address</label><div class='ginput_container ginput_container_email'>
+                            <input name='input_2' id='input_3_2' type='text' value='' class='medium'   placeholder='Your email address'  aria-invalid="false" />
+                        </div></li>
+                            </ul></div>
+        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_3' class='gform_button button' value='Sign up'  onclick='if(window["gf_submitting_3"]){return false;}  window["gf_submitting_3"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_3"]){return false;} window["gf_submitting_3"]=true;  jQuery("#gform_3").trigger("submit",[true]); }' /> <input type='hidden' name='gform_ajax' value='form_id=3&amp;title=&amp;description=&amp;tabindex=0' />
+            <input type='hidden' class='gform_hidden' name='is_submit_3' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='3' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_3' value='WyJbXSIsIjAwOTc0OWNhOGFhYjAzZDA4MjM0YjY0ZDIzMjJkMjUwIl0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_3' id='gform_target_page_number_3' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_3' id='gform_source_page_number_3' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div>
+                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_3' id='gform_ajax_frame_3' title='This iframe contains the logic required to handle Ajax powered Gravity Forms.'></iframe>
+                <script type='text/javascript'>jQuery(document).ready(function($){gformInitSpinner( 3, 'https://www.kyriba.com/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery('#gform_ajax_frame_3').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_3');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_3').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_3').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_3').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_3').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_3').offset().top - mt); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_3').val();gformInitSpinner( 3, 'https://www.kyriba.com/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery(document).trigger('gform_page_loaded', [3, current_page]);window['gf_submitting_3'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_3').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_3').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [3]);window['gf_submitting_3'] = false;}, 50);}else{jQuery('#gform_3').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [3, current_page]);} );} );</script><script type='text/javascript'> jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 3) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script><script type='text/javascript'> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [3, 1]) } ); </script><div class="social-icn">
+						<ul><li><a href="https://www.linkedin.com/company/kyriba/" target="_blank" class="fa fa-linkedin"></a></li><li><a href="https://www.facebook.com/Kyriba/" target="_blank" class="fa fa-facebook"></a></li><li><a href="https://twitter.com/kyribacorp" target="_blank" class="fa fa-twitter"></a></li><li><a href="https://www.instagram.com/livekyriba/" target="_blank" class="fa fa-instagram"></a></li><li><a href="https://www.youtube.com/user/kyribacorp" target="_blank" class="fa fa-youtube-play"></a></li><li><a href="https://www.glassdoor.co.in/Overview/Working-at-Kyriba-Corp-EI_IE260305.11,22.htm?countryRedirect=true" target="_blank" class="fa fa-glassdoor"></a></li></ul>
+			</div></p>
+</div></div>                									
+                								</div>
+    								
+    								    								
+    							</div>
+    						</div>
+											</li>
+									    					<li class="menu-type-6 menu-type  has-submenu sub-menu-open"><a
+    						href="/company/about-kyriba/" title="COMPANY">COMPANY</a>
+    						    						<div class="menu-items">
+    							<div class="menu-row">    								
+    								
+    																    	<div class="menu-left ">
+        									<div class="menu-left-content ">
+        										<i class="menu-left-icn"> <img src="https://www.kyriba.com/wp-content/uploads/2020/09/KGS-logo-white.svg" alt="icon" /> </i>        										<h6>Kyriba Global Summit</h6>        										<p>Join us for the customized virtual event where you will hear real stories of success and transformation from finance and IT executives on how they are effectively managing through the volatility that now defines our world.</p>
+        										<a href="https://events.bizzabo.com/239830/home" title="Learn more" class="small-btn">Learn more</a>        										
+        									</div>
+        									    									</div>
+									    								    																																																				<div class="menu-right">
+                									<div class="back-btn">
+                										<a href="#" title="CUSTOMERS" class="back-btn-link"><i
+                											class="fa fa-angle-left"></i>COMPANY</a>
+                									</div>
+                									<div class="menu-right-top">
+                										<div class="menu-right-col-12">
+                											<div class="menu-col-6-content">
+                												<ul  class="menu-links"><li id="menu-item-4930" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4930"><a title="About Us" href="https://www.kyriba.com/company/about-kyriba/">About Us</a></li>
+<li id="menu-item-4931" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4931"><a title="Recognition" href="https://www.kyriba.com/company/recognition/">Recognition</a></li>
+<li id="menu-item-4932" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4932"><a title="Leadership" href="https://www.kyriba.com/company/leadership/">Leadership</a></li>
+<li id="menu-item-16210" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16210"><a href="https://www.kyriba.com/company/events/">Events</a></li>
+<li id="menu-item-20607" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20607"><a href="https://www.kyriba.com/company/newsroom/">Newsroom</a></li>
+<li id="menu-item-4935" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4935"><a title="Careers" href="https://www.kyriba.com/company/careers/">Careers</a></li>
+<li id="menu-item-4936" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4936"><a title="Contact Us" href="https://www.kyriba.com/contact-kyriba/">Contact Us</a></li>
+</ul>
+                											</div>
+                											
+                										</div>
+                									</div>
+            										                									
+            									</div>
+											    										
+    									    								
+    								    								
+    							</div>
+    						</div>
+											</li>
+									
+			</ul>
+			</div>
+						<div class="menu-demo-sec">
+				<ul class="menu-demo-list">
+					<li class="lang-list-wrap">
+						<div class="lang-dropdown">
+							<span class="lang-title"><img src="https://www.kyriba.com/wp-content/themes/kyriba/assets/images/lang-icn.svg" alt="language" />
+							English</span>
+								<div class="lang-dropdown-list">
+									
+<div
+	 class="wpml-ls-sidebars- wpml-ls wpml-ls-legacy-dropdown js-wpml-ls-legacy-dropdown">
+	<ul>
+
+		<li tabindex="0" class="wpml-ls-slot- wpml-ls-item wpml-ls-item-en wpml-ls-current-language wpml-ls-first-item wpml-ls-item-legacy-dropdown">
+			<a href="#" class="js-wpml-ls-item-toggle wpml-ls-item-toggle"><img class="wpml-ls-flag" src="https://www.kyriba.com/wp-content/uploads/flags/us-flag.svg" alt=""><span class="wpml-ls-native">English</span></a>
+
+			<ul class="wpml-ls-sub-menu">
+				
+					<li class="wpml-ls-slot- wpml-ls-item wpml-ls-item-fr">
+						<a href="https://www.kyriba.fr" class="wpml-ls-link"><img class="wpml-ls-flag" src="https://www.kyriba.com/wp-content/uploads/flags/fr-flag.svg" alt=""><span class="wpml-ls-native" lang="fr">Français</span></a>
+					</li>
+
+				
+					<li class="wpml-ls-slot- wpml-ls-item wpml-ls-item-it">
+						<a href="https://www.kyriba.it" class="wpml-ls-link"><img class="wpml-ls-flag" src="https://www.kyriba.com/wp-content/uploads/flags/it-flag.svg" alt=""><span class="wpml-ls-native" lang="it">Italiano</span></a>
+					</li>
+
+				
+					<li class="wpml-ls-slot- wpml-ls-item wpml-ls-item-es">
+						<a href="https://www.kyriba.es" class="wpml-ls-link"><img class="wpml-ls-flag" src="https://www.kyriba.com/wp-content/uploads/flags/es-flag.svg" alt=""><span class="wpml-ls-native" lang="es">Español</span></a>
+					</li>
+
+				
+					<li class="wpml-ls-slot- wpml-ls-item wpml-ls-item-gb wpml-ls-last-item">
+						<a href="https://www.kyriba.uk" class="wpml-ls-link"><img class="wpml-ls-flag" src="https://www.kyriba.com/wp-content/uploads/flags/uk-flag.svg" alt=""><span class="wpml-ls-native" lang="gb">English(UK)</span></a>
+					</li>
+
+							</ul>
+
+		</li>
+
+	</ul>
+</div>
+									<div class="wpml-ls-sidebars- wpml-ls wpml-ls-legacy-dropdown js-wpml-ls-legacy-dropdown other-lang-menu">
+										
+										<ul class="wpml-ls-sub-menu">
+											<li class="wpml-ls-slot- wpml-ls-item wpml-ls-item-zh-hans wpml-ls-last-item">
+												<a href="https://www.kyriba.cn/" class="wpml-ls-link"><img class="wpml-ls-flag" src="https://www.kyriba.com/wp-content/uploads/flags/china.svg" alt="zh-hans" title="简体中文"><span class="wpml-ls-native">简体中文</span></a>
+											</li>
+											<li class="wpml-ls-slot- wpml-ls-item wpml-ls-item-jp">
+												<a href="https://www.kyriba.jp/" class="wpml-ls-link"><img class="wpml-ls-flag" src="https://www.kyriba.com/wp-content/uploads/flags/japan.svg" alt="jp" title="Japanese"><span class="wpml-ls-native">日本語</span></a>
+											</li>
+										</ul>
+									</div>
+									
+                           		</div>
+						</div>
+					</li>
+															<li class="site-search-li">
+						<div class="site-search-wrap">
+							<span class="search-icn">
+								<img src="https://www.kyriba.com/wp-content/themes/kyriba/assets/images/search-icn.svg" alt="logo" /> </span>
+								<div class="site-search">
+                                	<div class="custom-search-box">
+	<form role="search" method="get" class="search-form" action="https://www.kyriba.com/">
+		<label for="search-form-global"><span class="screen-reader-text">Search for:</span></label>
+		<input type="search" id="search-form-global" class="search-field" placeholder="Search Kyriba…" value="" name="s" />
+		<input type="hidden" value="all" id="srchtype" name="srchtype" />
+		<!--<button type="submit" class="search-submit"><span class="screen-reader-text">Search</span><i class="fa fa-search" aria-hidden="true"></i></button>-->
+	</form>
+	<a href="javascript:void(0);" title="Close" class="close-ic-search"><img src="https://www.kyriba.com/wp-content/themes/kyriba/assets/images/close-ic.svg" alt="icon" /></a>
+</div>                                </div>
+						</div>
+					</li>
+															<li class="req-demo-wrap"><a href="https://info.kyriba.com/RequestaDemo-KDC.html" title="REQUEST A DEMO" class="req-demo-btn" target="_blank">REQUEST A DEMO</a></li>
+									</ul>
+			</div>
+					</div>
+
+
+	</div>
+</div>
+</div>		</div>
+			</header>
+	<div class="header-blank"></div>
+		
+				<div class="header-slider-sec">			
+			<div class="main cf">
+				<div class="header-slider-main">
+					<div class="header-slider">
+													<div class="header-slider-item">
+																<div class="header-slider-row">
+																			<a class="header-slider-img" href="https://events.bizzabo.com/239830"><img src="https://www.kyriba.com/wp-content/uploads/2020/09/kgs-banner-icon1.png" alt="img" /></a>
+																												<div class="header-slider-content">
+											<p>Join us for the customized virtual event where you will hear real stories of success and transformation from finance and IT executives on how they are effectively managing through the volatility that now defines our world.</p>
+																							<a class="btn-learn-more" href="https://events.bizzabo.com/239830" target="_blank">Join us</a>
+																					</div>
+																	</div>
+							</div>
+													<div class="header-slider-item">
+																<div class="header-slider-row">
+																			<a class="header-slider-img" href="https://info.kyriba.com/kdc/erp-migration-simplify-accelerate-bank-integration"><img src="https://www.kyriba.com/wp-content/uploads/2020/07/erp-banner-2.png" alt="img" /></a>
+																												<div class="header-slider-content">
+											<p>CIOs and CFOs can now streamline bank connectivity and accelerate ERP cloud transformation projects with Kyriba's Connectivity as a Service offering.</p>
+																							<a class="btn-learn-more" href="https://info.kyriba.com/kdc/erp-migration-simplify-accelerate-bank-integration" target="_blank">Read the eBook</a>
+																					</div>
+																	</div>
+							</div>
+													<div class="header-slider-item">
+																<div class="header-slider-row">
+																			<a class="header-slider-img" href="https://www.kyriba.com/solutions/kyriba-for-mid-market/"><img src="https://www.kyriba.com/wp-content/uploads/2020/07/mm-banner-icon.png" alt="img" /></a>
+																												<div class="header-slider-content">
+											<p>Kyriba provides emerging enterprises with greater automation, visibility and control over cash and liquidity.</p>
+																							<a class="btn-learn-more" href="https://www.kyriba.com/solutions/kyriba-for-mid-market/" target="_blank">Learn more about Kyriba for Mid-market</a>
+																					</div>
+																	</div>
+							</div>
+													<div class="header-slider-item">
+																<div class="header-slider-row">
+																			<a class="header-slider-img" href="https://info.kyriba.com/kdc/7-experts-on-activating-liqudity"><img src="https://www.kyriba.com/wp-content/uploads/2019/09/15min2.png" alt="img" /></a>
+																												<div class="header-slider-content">
+											<p>Hear firsthand how your peers are activating liquidity and gaining greater visibility into their cash, payments, risk and working capital.</p>
+																							<a class="btn-learn-more" href="https://info.kyriba.com/kdc/7-experts-on-activating-liqudity" target="_blank">Read the eBook</a>
+																					</div>
+																	</div>
+							</div>
+													<div class="header-slider-item">
+																<div class="header-slider-row">
+																			<a class="header-slider-img" href="https://www.kyriba.com/resource/supply-chain-finance-with-kyriba/"><img src="https://www.kyriba.com/wp-content/uploads/2020/07/scf-banner.png" alt="img" /></a>
+																												<div class="header-slider-content">
+											<p>Learn how, with supply chain finance, you can access low-cost capital, generate free cash flow, optimize payment terms and improve DPO.</p>
+																							<a class="btn-learn-more" href="https://www.kyriba.com/resource/supply-chain-finance-with-kyriba/" target="_blank">Watch the Video</a>
+																					</div>
+																	</div>
+							</div>
+											</div>
+				</div>
+			</div>
+			<a href="#" title="Close" class="header-slide-close-btn"><img src="https://www.kyriba.com/wp-content/themes/kyriba/assets/images/header-close-icn.svg" alt="header-close-icn"/></a>
+		</div>
+	
+	</div>															<section class="home-banner-sec right-shape " style="background-image:url('')">
+						<div class="shape-img" data-aos="fade-up" data-aos-offset="-300"><img src="https://www.kyriba.com/wp-content/themes/kyriba/assets/images/banner-line-img1.png" alt="img"/></div>
+			
+		<div class="main cf">
+		<div class="home-banner-main" data-aos="fade-in">
+			<div class="home-banner-content">
+								<h1>Activate Liquidity.</h1>				<p>Transform how you use liquidity as a dynamic vehicle for growth and value creation</p>				<a class="white-btn" href="https://www.kyriba.com/active-liquidity-network/" target="_self" title="Find out how">Find out how</a>			</div>
+			
+						
+				<div class="home-globe-video">
+					<div class="right-col">
+						<video preload="auto" muted="muted" id="video" style="position: absolute;opacity:0;" autoplay="autoplay" loop="loop">
+							<source src="https://www.kyriba.com/wp-content/themes/kyriba/assets/videos/globe_main_HD.mp4" type='video/mp4; codecs="avc1.42E01E"' />
+						</video>
+						<canvas width="540" height="1080" id="buffer"></canvas>
+						<canvas width="540" height="540" id="output"></canvas>
+			        </div>
+				</div>
+			
+			
+						
+			
+		</div>
+	</div>
+</section>							
+															<section class="kyriba-active-sec left-shape">
+	
+	 
+		<div class="kyriba-active-img"><img src="https://www.kyriba.com/wp-content/themes/kyriba/assets/images/line-img-home.png" alt="img" /></div>
+	 
+	
+		<div class="kyriba-active-title animated delay-200" data-class="fadeIn">
+		<div class="main cf">
+			<h2>The Kyriba Active Liquidity Network</h2>			<p>A unified set of powerful products that span treasury, risk, payments and working capital, the Kyriba Active Liquidity Network connects your enterprise with vital external partners and information sources, while also delivering advanced intelligence and insights.</p>		</div>
+	</div>
+	<div class="kyriba-tab-sec">
+		<div class="main cf">
+							<div class="slider-nav animated delay-200" data-class="fadeIn">
+											<div class="slider-nav-item">
+						<div class="resp-tabs-title">
+							<i class="resp-title-icn"><img src="https://www.kyriba.com/wp-content/uploads/2019/09/new-icn1.svg" alt="TREASURY <br>MANAGEMENT" class="tab-desk-icn" /></i>
+							<span class="resp-title-name">TREASURY <br>MANAGEMENT</span>
+						</div>
+						</div>
+											<div class="slider-nav-item">
+						<div class="resp-tabs-title">
+							<i class="resp-title-icn"><img src="https://www.kyriba.com/wp-content/uploads/2019/09/new-icn2.svg" alt="RISK <br>MANAGEMENT" class="tab-desk-icn" /></i>
+							<span class="resp-title-name">RISK <br>MANAGEMENT</span>
+						</div>
+						</div>
+											<div class="slider-nav-item">
+						<div class="resp-tabs-title">
+							<i class="resp-title-icn"><img src="https://www.kyriba.com/wp-content/uploads/2019/09/new-icn3.svg" alt="PAYMENTS" class="tab-desk-icn" /></i>
+							<span class="resp-title-name">PAYMENTS</span>
+						</div>
+						</div>
+											<div class="slider-nav-item">
+						<div class="resp-tabs-title">
+							<i class="resp-title-icn"><img src="https://www.kyriba.com/wp-content/uploads/2019/09/new-icn4.svg" alt="WORKING CAPITAL <br>MANAGEMENT " class="tab-desk-icn" /></i>
+							<span class="resp-title-name">WORKING CAPITAL <br>MANAGEMENT </span>
+						</div>
+						</div>
+									</div>
+										<div class="slider-for">
+											<div class="slider-for-item">
+							<div class="risk-mg-row cf">
+								<div class="risk-img-col animated delay-200" data-class="fadeInLeft"><div class="risk-img"> <img src="https://www.kyriba.com/wp-content/uploads/2019/08/treasury-management-hero.png" alt="logo" /></div></div>
+								<div class="risk-content-col animated delay-200" data-class="fadeInRight">
+									<div class="risk-content">
+										<h5>OUR PRODUCTS</h5>										<h2>Treasury Management</h2>										<p>Award-winning solutions for cash management and forecasting, cash accounting, bank relationship management and much more.</p>
+<ul>
+<li>Get 100% cash visibility, eliminate manual processes</li>
+<li>Perfect your cash forecasting</li>
+<li>Eliminate wasteful bank fees</li>
+</ul>
+																																<a href="https://www.kyriba.com/products/treasury-management/" title="Learn more" class="small-btn">Learn more</a>
+																			</div>
+								</div>
+							</div>
+						</div>
+											<div class="slider-for-item">
+							<div class="risk-mg-row cf">
+								<div class="risk-img-col " ><div class="risk-img"> <img src="https://www.kyriba.com/wp-content/uploads/2019/09/risk-management-hero3.png" alt="logo" /></div></div>
+								<div class="risk-content-col " >
+									<div class="risk-content">
+										<h5>OUR PRODUCTS</h5>										<h2>Risk Management</h2>										<p><span style="font-weight: 400;">Mitigate the risk of FX losses through the industry’s most advanced solution, while protecting against threats of fraud and cybercrime.</span></p>
+<ul>
+<li>Reduce FX losses that impact EPS</li>
+<li>Implement better financial controls and workflows</li>
+<li>Ensure compliance with global regulations</li>
+</ul>
+																																<a href="https://www.kyriba.com/products/risk-management/" title="Learn more" class="small-btn">Learn more</a>
+																			</div>
+								</div>
+							</div>
+						</div>
+											<div class="slider-for-item">
+							<div class="risk-mg-row cf">
+								<div class="risk-img-col " ><div class="risk-img"> <img src="https://www.kyriba.com/wp-content/uploads/2019/08/payments-hub-hero.png" alt="logo" /></div></div>
+								<div class="risk-content-col " >
+									<div class="risk-content">
+										<h5>OUR PRODUCTS</h5>										<h2>Payments</h2>										<p>Leverage automated workflows to initiate, approve and release payments that meet internal and regulatory requirements to any bank globally.</p>
+<ul>
+<li>Standardize and centralize global payments</li>
+<li>Stop payments fraud in real-time</li>
+<li>Get support for a wide range of payments</li>
+</ul>
+																																<a href="https://www.kyriba.com/products/payments/" title="Learn more" class="small-btn">Learn more</a>
+																			</div>
+								</div>
+							</div>
+						</div>
+											<div class="slider-for-item">
+							<div class="risk-mg-row cf">
+								<div class="risk-img-col " ><div class="risk-img"> <img src="https://www.kyriba.com/wp-content/uploads/2019/08/working-capital-hero.png" alt="logo" /></div></div>
+								<div class="risk-content-col " >
+									<div class="risk-content">
+										<h5>OUR PRODUCTS</h5>										<h2>Working Capital Management</h2>										<p>Boost free cash flow and net income through working capital optimization programs that include expert teams, supplier onboarding and more.</p>
+<ul>
+<li>Enhance free cash flow via supply chain finance</li>
+<li>Increase net income through dynamic discounting</li>
+<li>Leverage one integrated cloud platform</li>
+</ul>
+																																<a href="https://www.kyriba.com/products/working-capital-management/" title="Learn more" class="small-btn">Learn more</a>
+																			</div>
+								</div>
+							</div>
+						</div>
+									</div>
+					</div>
+	</div>
+
+
+
+
+<div class="network-sec">
+<div class="main cf">
+<div class="network-item">
+
+<div class="network-img" style="background-image:url('https://www.kyriba.com/wp-content/uploads/2019/09/globe2x.png')"></div>
+
+<div class="network-content cf">
+	<i class="network-icn"><img src="https://www.kyriba.com/wp-content/uploads/2019/09/netwrok-icn.svg" alt="network-icn"/></i>	<div class="network-info">
+				<p>Kyriba's rich product portfolio offers an unmatched level of networked connections to banks, financial institutions, customers and suppliers.</p>
+							<a class="small-btn" href="https://www.kyriba.com/active-liquidity-network/" target="_self">Learn more</a>
+				</div>
+</div>
+</div>
+</div>
+</div>			
+</section>							
+															<section class="kyriba-diffnt-sec">
+	<div class="kyriba-diffnt-pattern"><img src="https://www.kyriba.com/wp-content/themes/kyriba/assets/images/line-img3.png" alt="img" /></div>
+	
+	<div class="kyriba-diffnt-title large-body-font animated delay-200" data-class="fadeIn">
+		<div class="main cf">
+			<h2>How is Kyriba Different?</h2>			<p>Kyriba differentiates itself through an innovative approach, customer support and unique industry capabilities for enhancing risk protection and maximizing growth.</p>		</div>
+	</div>
+
+			<div class="kyriba-diffnt-slider-sec">
+			<div class="main cf">
+				<div class="kyriba-diffnt-slider cf  animated delay-200" data-class="fadeIn">
+											<div class="kyriba-diffnt-item">
+							<div class="kyriba-diffnt-col">
+								<div class="inner-kyriba-diffnt">
+									<i class="kyriba-diffnt-icn"><img src="https://www.kyriba.com/wp-content/uploads/2019/09/advanced-fx.svg" alt="logo" /></i>									<h4>Advanced FX Risk Management</h4>									<p>Easily manage the entire lifecycle of currency risk, from exposure capture and analysis to valuation and hedge accounting.</p>																													<div class="green-btn-absolute">
+										<a href="/solutions/use-case/currency-risk/" class="green-btn" title="Learn more">Learn more</a>
+										</div>
+																	</div>
+							</div>
+						</div>
+											<div class="kyriba-diffnt-item">
+							<div class="kyriba-diffnt-col">
+								<div class="inner-kyriba-diffnt">
+									<i class="kyriba-diffnt-icn"><img src="https://www.kyriba.com/wp-content/uploads/2019/09/real-time-fraud-detection.svg" alt="logo" /></i>									<h4>Real-Time Fraud Prevention</h4>									<p>Get industry first capabilities for detecting and preventing payments fraud before it ever occurs.</p>																													<div class="green-btn-absolute">
+										<a href="/solutions/use-case/fraud-prevention/" class="green-btn" title="Learn more">Learn more</a>
+										</div>
+																	</div>
+							</div>
+						</div>
+											<div class="kyriba-diffnt-item">
+							<div class="kyriba-diffnt-col">
+								<div class="inner-kyriba-diffnt">
+									<i class="kyriba-diffnt-icn"><img src="https://www.kyriba.com/wp-content/uploads/2019/09/working-capital.svg" alt="logo" /></i>									<h4>Working Capital Optimization</h4>									<p>Enhance your ability to improve free cash through our innovative supply chain financial solution.</p>																													<div class="green-btn-absolute">
+										<a href="/solutions/use-case/working-capital/" class="green-btn" title="Learn more">Learn more</a>
+										</div>
+																	</div>
+							</div>
+						</div>
+									</div>
+			</div>	
+		</div>
+	</section>							
+															<section class="client-sec"	style="background-image:url('https://www.kyriba.com/wp-content/uploads/2019/08/worldwide-client.png')">
+	<div class="main cf">
+		<div class="client-row cf">
+			<div class="client-content-col client-col animated delay-200" data-class="fadeIn">
+				<div class="client-content">
+										<h2>Kyriba is a Recognized Leader for Cloud Treasury & Finance Solutions, Serving More Than 2,000 Clients in 100 Countries.</h2>											<a class="green-btn white-border-btn" href="https://www.kyriba.com/customers/" target="_self">Learn more</a>
+									</div>
+			</div>
+							<div class="client-logo-col client-col animated delay-200" data-class="fadeIn">
+									<ul class="cf">
+																					<li><a href="https://www.mccormickcorporation.com/" target="_blank"><img src="https://www.kyriba.com/wp-content/uploads/2019/09/mc.svg" alt="logo"/></a></li>
+																												<li><a href="https://www.paloaltonetworks.com/" target="_blank"><img src="https://www.kyriba.com/wp-content/uploads/2019/09/paloalto2.svg" alt="logo"/></a></li>
+																												<li><a href="https://www.eastman.com" target="_blank"><img src="https://www.kyriba.com/wp-content/uploads/2019/09/eastman.svg" alt="logo"/></a></li>
+																												<li><a href="https://www.takeda.com/" target="_blank"><img src="https://www.kyriba.com/wp-content/uploads/2019/09/takeda2.svg" alt="logo"/></a></li>
+																												<li><a href="https://www.onepeloton.com/" target="_blank"><img src="https://www.kyriba.com/wp-content/uploads/2019/09/peloton.svg" alt="logo"/></a></li>
+																												<li><a href="https://www.spotify.com" target="_blank"><img src="https://www.kyriba.com/wp-content/uploads/2019/09/spotify.svg" alt="logo"/></a></li>
+																												<li><a href="https://www.bbc.com/" target="_blank"><img src="https://www.kyriba.com/wp-content/uploads/2019/09/bbc.svg" alt="logo"/></a></li>
+																												<li><a href="https://www.qualcomm.com/" target="_blank"><img src="https://www.kyriba.com/wp-content/uploads/2019/09/qualcomm.svg" alt="logo"/></a></li>
+																												<li><a href="https://www.ingrammicro.com/IMD_WASWeb/jsp/login/corporate.jsp" target="_blank"><img src="https://www.kyriba.com/wp-content/uploads/2019/09/ingram.svg" alt="logo"/></a></li>
+																		</ul>
+				</div>
+					</div>
+	</div>
+</section>							
+															<section class="testimonial-sec gray-testimonial-sec right-shape ">
+					<div class="testimonial-title animated delay-200" data-class="fadeIn">
+				<div class="main cf">
+					<h2><a href="https://www.kyriba.com/customers/">From Our Clients</a></h2>
+				</div>
+			</div>
+						<div class="shape-img newell-shape-img"> <img src="https://www.kyriba.com/wp-content/themes/kyriba/assets/images/line-img17.png" alt="img"></div>
+				<div class="testimonial-slider-wrap">
+			<div class="main cf">
+									<div class="testimonial-slider">
+																						<div class="testimonial-item">
+									<div class="testimonial-fluid cf">
+										<div class="testimonial-logo"><img src="https://www.kyriba.com/wp-content/uploads/2019/08/testimonial-logo1.svg" alt="testimonial-logo"/></div>										<blockquote>Our goal was to create a solution oriented and agile treasury. We needed a secure, robust and scalable solution that integrated well with our systems, and we found that Kyriba was best aligned to support our needs.</blockquote>										<div class="testimonial-right">
+											<span class="testimonial-name">Johan Bergqvist</span>											<span class="testimonial-disc">VP, Corporate Finance & Treasury, Spotify</span>																									<a class="small-btn" href="https://www.kyriba.com/resource/success-stories/spotify-makes-treasury-music/" target="_self">Read the success story</a>
+																					</div>
+									</div>
+								</div>	
+																															<div class="testimonial-item">
+										<div class="testimonial-row cf">
+											<div class="testimonial-video-col " >
+												<div class="testimonial-video-wrap">
+													<a class="popup-youtube testimonial-video" href="http://www.youtube.com/watch?v=ylEXM9mLrl4" style="background-image:url('https://img.youtube.com/vi/ylEXM9mLrl4/0.jpg')"><img src="https://www.kyriba.com/wp-content/themes/kyriba/assets/images/play-icn.svg" alt="play-icn" /></a>
+																									</div>
+											</div>
+											<div class="testimonial-content-col " >
+												<div class="testimonial-content quote-content cf">
+													<blockquote>I have worked with Kyriba about ten years now, and I’ve watched it grow and respond to its customers – truly valuing our feedback in a way that I’ve never seen another provider do.”</blockquote>													<span class="testimonial-name">Trish Fisher</span>													<span class="testimonial-disc">Director, Treasury Operations, WeWork</span>																											<a class="small-btn" href="https://www.youtube.com/watch?v=ylEXM9mLrl4" target="_self">Hear the success story</a>
+													
+												</div>
+											</div>
+										</div>
+									</div>
+																														<div class="testimonial-item">
+									<div class="testimonial-fluid cf">
+										<div class="testimonial-logo"><img src="https://www.kyriba.com/wp-content/uploads/2019/09/graff-logo.png" alt="testimonial-logo"/></div>										<blockquote>The main benefit I personally get from Kyriba is risk mitigation through much greater confidence in my treasury. I receive meaningful data to analyse, including automated standardised reports and accurate cash forecasts.</blockquote>										<div class="testimonial-right">
+											<span class="testimonial-name">Andrew Nicholson</span>											<span class="testimonial-disc">CFO, Graff Diamonds</span>																									<a class="small-btn" href="https://www.kyriba.com/resource/success-stories/sixty-seconds-with-graff-diamonds/" target="_self">Read the success story</a>
+																					</div>
+									</div>
+								</div>	
+																			</div>	
+							</div>
+		</div>	
+</section>							
+															<section class="testimonial-main-vdo-sec">
+<div class="center-content-main cf">
+<div class="center-content">
+<div class="inner-center-content">
+<h2 style="text-align: center;">Activate and Protect Enterprise-wide Liquidity</h2>
+<p style="text-align: center;">Ready to know more about what Kyriba can do for you around fraud and compliance, cash forecasting, payments, fx risk management, supply chain finance and more?</p>
+<p style="text-align: center;">Click play, choose what you want to see more of and watch Kyriba in action.</p>
+</div>
+</div>
+</div>
+
+<div class="testimonial-video-wrap hello">
+<a class="popup-youtube testimonial-video" href="https://app.goconsensus.com/play/c5a13cb3" style="background-image:url('https://www.kyriba.com/wp-content/uploads/2020/02/enterprise-wide.jpg')"><img src="https://www.kyriba.com/wp-content/uploads/2020/02/play-icn.svg" alt="play-icn" /></a>
+</div>
+
+
+</section>
+
+							
+															<section class="leadership-sec">
+	<div class="leadership-title animated delay-200" data-class="fadeIn">
+		<div class="main cf">
+							<h2>Thought leadership and latest updates</h2>
+					</div>
+	</div>
+			<div class="leadership-slider-sec">
+		<div class="main cf">
+			<div class="leadership-slider animated delay-200" data-class="fadeIn">
+												<div class="leadership-slider-item">
+															<a class="leadership-slider-col" href="https://info.kyriba.com/wbn/the-future-of-cash-visibility" target="_blank">
+						<div class="leadership-img" style="background-image:url('https://www.kyriba.com/wp-content/uploads/2019/09/cash-768x342.jpg')"></div>
+						<div class="leadership-content cf">
+							<div class="inner-leadership-content">
+																	<span class="leadership-tag" style="background-color:#ff8484">Webinars</span>
+																<h4>The Future of Cash Visibility</h4>
+								Cash visibility is becoming more immediate and demanding, a trend which will only increase with the adoption of APIs, real-time payments and artificial intelligence technology. In this webinar, we will discuss best practices to...																<span class="green-btn" title="Read more">Watch the recording</span>
+							</div>
+						</div>
+					</a>
+				</div>
+											<div class="leadership-slider-item">
+															<a class="leadership-slider-col" href="https://info.kyriba.com/kdc/3-steps-to-gaining-clearer-cash-visibility" target="_blank">
+						<div class="leadership-img" style="background-image:url('https://www.kyriba.com/wp-content/uploads/2019/09/3steps-768x342.jpg')"></div>
+						<div class="leadership-content cf">
+							<div class="inner-leadership-content">
+																	<span class="leadership-tag" style="background-color:#84abff">eBooks</span>
+																<h4>3 Steps to Gaining Clear Cash Visibility</h4>
+								Lack of insight into the company&#039;s full cash picture leaves treasury in the dark, and complex banking structures and a sprawling geographical footprint can exacerbate this issue. But achieving full cash visibility doesn&#039;t have...																<span class="green-btn" title="Read more">Download the eBook</span>
+							</div>
+						</div>
+					</a>
+				</div>
+											<div class="leadership-slider-item">
+															<a class="leadership-slider-col" href="https://info.kyriba.com/wbn/Navigating-Geopolitical-Uncertainty-Accenture-Kyriba" target="_blank">
+						<div class="leadership-img" style="background-image:url('https://www.kyriba.com/wp-content/uploads/2019/09/geopolitica2-768x342.jpg')"></div>
+						<div class="leadership-content cf">
+							<div class="inner-leadership-content">
+																	<span class="leadership-tag" style="background-color:#ff8484">Webinars</span>
+																<h4>Geopolitical Uncertainty: How to Gain Insight into Currency Exposures & Avoid Negative Impacts</h4>
+								As the trade war continues to deepen and a hard Brexit looms, geopolitical uncertainty is shaking up the currency market. The resulting FX volatility and currency movements are negatively impacting the earnings of many...																<span class="green-btn" title="Read more">Watch the recording</span>
+							</div>
+						</div>
+					</a>
+				</div>
+											<div class="leadership-slider-item">
+															<a class="leadership-slider-col" href="https://info.kyriba.com/kdc/automating-corporate-fx" target="_blank">
+						<div class="leadership-img" style="background-image:url('https://www.kyriba.com/wp-content/uploads/2019/08/automating-corporate-fx.png')"></div>
+						<div class="leadership-content cf">
+							<div class="inner-leadership-content">
+																	<span class="leadership-tag" style="background-color:#84abff">eBooks</span>
+																<h4>Automating Corporate FX</h4>
+								Nearly every company doing business beyond its own borders faces the challenge of costeffectively managing currency risk and each year, corporations incur billions of dollars in currency-related losses due to global currency volatility. Even...																<span class="green-btn" title="Read more">Download the eBook</span>
+							</div>
+						</div>
+					</a>
+				</div>
+											<div class="leadership-slider-item">
+															<a class="leadership-slider-col" href="https://info.kyriba.com/wbn/demo-webinar-2020" target="_blank">
+						<div class="leadership-img" style="background-image:url('https://www.kyriba.com/wp-content/uploads/2019/09/product-screen-768x512.jpg')"></div>
+						<div class="leadership-content cf">
+							<div class="inner-leadership-content">
+																	<span class="leadership-tag" style="background-color:#ff8484">Webinars</span>
+																<h4>Kyriba Monthly Demo Webinars</h4>
+								Learning the latest treasury trends and technology • Time: 2nd Thursday of every month at 12:00 pm ET • 9:00 am PT • Receive an overview of the Kyriba solution from our treasury experts...																<span class="green-btn" title="Read more">Watch the recording</span>
+							</div>
+						</div>
+					</a>
+				</div>
+											<div class="leadership-slider-item">
+															<a class="leadership-slider-col" href="/wp-content/files_live/KY19-057-Solutions-Overview-v6-AJ.pdf" target="_blank">
+						<div class="leadership-img" style="background-image:url('https://www.kyriba.com/wp-content/uploads/2019/08/overview-768x342.jpg')"></div>
+						<div class="leadership-content cf">
+							<div class="inner-leadership-content">
+																	<span class="leadership-tag" style="background-color:#ffbd7b">Fact Sheets</span>
+																<h4>Kyriba - The Global Leader in Cloud Treasury Solutions</h4>
+								Kyriba empowers forward-thinking teams to optimize capabilities for treasury, payments, risk management and working capital. This functionality is integrated with a highly connected network of banks, platforms and information sources to help clients enhance...																<span class="green-btn" title="Read more">Read the fact sheet</span>
+							</div>
+						</div>
+					</a>
+				</div>
+						</div>
+		</div>
+	</div>
+	</section>							
+							<section class="activate-liquidity-sec stickyStop">
+	<div class="shape-img activate-shpe-img"><img src="https://www.kyriba.com/wp-content/themes/kyriba/assets/images/line-img5.png" alt="img" /></div>
+	<div class="main cf">
+		<div class="activate-liquidity-content animated delay-200" data-class="fadeIn">
+							<h5 class="global-cta-title">Activate Liquidity.</h5>				<p>Transform how you use liquidity as a dynamic vehicle for growth and value creation</p>								<a class="orange-btn" href="https://www.kyriba.com/active-liquidity-network" target="_self" >Find out how</a>
+									</div>
+	</div>
+</section>
+<script>
+jQuery( document ).ready(function() {
+    if ( jQuery(".activate-liquidity-sec").prev(".leadership-sec").length ){
+		jQuery(".activate-liquidity-sec").addClass('relres-top-padding');
+	}
+});
+</script>
+<footer class="foo-main">
+	<div class="foo-sec">
+		<div class="main cf">
+			<div class="foo-row cf animated delay-200" data-class="fadeIn">
+				<div class="foo-col foo-logo-col">
+											<a href="https://www.kyriba.com" title="Kyriba" class="foo-logo"><img src="https://www.kyriba.com/wp-content/uploads/2019/09/black-logo2.svg" alt="Kyriba"/></a>
+										<div class="foo-contact">
+													<a href="tel:1-855-KYRIBA-0">
+								1-855-KYRIBA-0							</a><br>
+												<a href="mailto:treasury@kyriba.com"><strong>treasury@kyriba.com</strong></a>					</div>
+					<div class="foo-address"><p><a href="https://www.google.com/maps/place/Kyriba/@32.8772057,-117.2127971,17z/data=!3m1!4b1!4m5!3m4!1s0x80dc072518678759:0x370422e300cf5d61!8m2!3d32.8772057!4d-117.2106084" style="text-decoration:none;" target="_blank">4435 Eastgate Mall, Suite 200<br>San Diego, CA 92121-1980</a></p></div>					<div class="foo-mailchimp">
+						<h6>Get the inside scoop on news and updates from Kyriba!</h6>						
+                <div class='gf_browser_unknown gform_wrapper' id='gform_wrapper_2' ><div id='gf_2' class='gform_anchor' tabindex='-1'></div><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_2' id='gform_2'  action='/#gf_2'>
+                        <div class='gform_body'><ul id='gform_fields_2' class='gform_fields top_label form_sublabel_below description_below'><li id='field_2_2'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_2_2' >Your email address</label><div class='ginput_container ginput_container_email'>
+                            <input name='input_2' id='input_2_2' type='text' value='' class='medium'   placeholder='Your email address'  aria-invalid="false" />
+                        </div></li><li id='field_2_3'  class='gfield gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible' ><div style="position:absolute; left:-9999px; top: -9999px;">
+    <label for="pardot_extra_field">Comments</label>
+    <input type="text" id="pardot_extra_field" name="pardot_extra_field">
+</div></li>
+                            </ul></div>
+        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_2' class='gform_button button' value='Sign up'  onclick='if(window["gf_submitting_2"]){return false;}  window["gf_submitting_2"]=true;  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_2"]){return false;} window["gf_submitting_2"]=true;  jQuery("#gform_2").trigger("submit",[true]); }' /> <input type='hidden' name='gform_ajax' value='form_id=2&amp;title=&amp;description=&amp;tabindex=0' />
+            <input type='hidden' class='gform_hidden' name='is_submit_2' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='2' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_2' value='WyJbXSIsIjAwOTc0OWNhOGFhYjAzZDA4MjM0YjY0ZDIzMjJkMjUwIl0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_2' id='gform_target_page_number_2' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_2' id='gform_source_page_number_2' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div>
+                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_2' id='gform_ajax_frame_2' title='This iframe contains the logic required to handle Ajax powered Gravity Forms.'></iframe>
+                <script type='text/javascript'>jQuery(document).ready(function($){gformInitSpinner( 2, 'https://www.kyriba.com/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery('#gform_ajax_frame_2').on('load',function(){var contents = jQuery(this).contents().find('*').html();var is_postback = contents.indexOf('GF_AJAX_POSTBACK') >= 0;if(!is_postback){return;}var form_content = jQuery(this).contents().find('#gform_wrapper_2');var is_confirmation = jQuery(this).contents().find('#gform_confirmation_wrapper_2').length > 0;var is_redirect = contents.indexOf('gformRedirect(){') >= 0;var is_form = form_content.length > 0 && ! is_redirect && ! is_confirmation;var mt = parseInt(jQuery('html').css('margin-top'), 10) + parseInt(jQuery('body').css('margin-top'), 10) + 100;if(is_form){jQuery('#gform_wrapper_2').html(form_content.html());if(form_content.hasClass('gform_validation_error')){jQuery('#gform_wrapper_2').addClass('gform_validation_error');} else {jQuery('#gform_wrapper_2').removeClass('gform_validation_error');}setTimeout( function() { /* delay the scroll by 50 milliseconds to fix a bug in chrome */ jQuery(document).scrollTop(jQuery('#gform_wrapper_2').offset().top - mt); }, 50 );if(window['gformInitDatepicker']) {gformInitDatepicker();}if(window['gformInitPriceFields']) {gformInitPriceFields();}var current_page = jQuery('#gform_source_page_number_2').val();gformInitSpinner( 2, 'https://www.kyriba.com/wp-content/plugins/gravityforms/images/spinner.gif' );jQuery(document).trigger('gform_page_loaded', [2, current_page]);window['gf_submitting_2'] = false;}else if(!is_redirect){var confirmation_content = jQuery(this).contents().find('.GF_AJAX_POSTBACK').html();if(!confirmation_content){confirmation_content = contents;}setTimeout(function(){jQuery('#gform_wrapper_2').replaceWith(confirmation_content);jQuery(document).scrollTop(jQuery('#gf_2').offset().top - mt);jQuery(document).trigger('gform_confirmation_loaded', [2]);window['gf_submitting_2'] = false;}, 50);}else{jQuery('#gform_2').append(contents);if(window['gformRedirect']) {gformRedirect();}}jQuery(document).trigger('gform_post_render', [2, current_page]);} );} );</script><script type='text/javascript'> jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 2) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script><script type='text/javascript'> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [2, 1]) } ); </script>					</div>
+				</div>
+				<div class="foo-nav-right">
+					<div class="foo-nav-row cf">
+							<div class="foo-col foo-nav-col"><div class="inner-foo-col"><h5>PRODUCTS</h5><div class="menu-products-container"><ul id="menu-products" class="menu"><li id="menu-item-1154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1154"><a href="https://www.kyriba.com/active-liquidity-network/">Active Liquidity Network</a></li>
+<li id="menu-item-1150" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-1150"><a href="https://www.kyriba.com/products/treasury-management/">Treasury Management</a></li>
+<li id="menu-item-1152" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-1152"><a href="https://www.kyriba.com/products/risk-management/">Risk Management</a></li>
+<li id="menu-item-1153" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-1153"><a href="https://www.kyriba.com/products/payments/">Payments</a></li>
+<li id="menu-item-1151" class="menu-item menu-item-type-post_type menu-item-object-product menu-item-1151"><a href="https://www.kyriba.com/products/working-capital-management/">Working Capital</a></li>
+<li id="menu-item-15747" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15747"><a href="https://www.kyriba.com/products/capabilities/security/">Security</a></li>
+<li id="menu-item-15748" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15748"><a href="https://www.kyriba.com/products/capabilities/connectivity/">Connectivity</a></li>
+<li id="menu-item-15749" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15749"><a href="https://www.kyriba.com/products/capabilities/data-visualization/">Data Visualization</a></li>
+<li id="menu-item-15750" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15750"><a href="https://www.kyriba.com/products/capabilities/saas-solution/">SaaS</a></li>
+</ul></div></div></div><div class="foo-col foo-nav-col"><div class="inner-foo-col"><h5>Solutions by Use Case</h5><div class="menu-solutions-by-use-case-container"><ul id="menu-solutions-by-use-case" class="menu"><li id="menu-item-13362" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-13362"><a href="https://www.kyriba.com/solutions/use-case/working-capital/">Working Capital</a></li>
+<li id="menu-item-13363" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-13363"><a href="https://www.kyriba.com/solutions/use-case/compliance/">Audit &#038; Compliance</a></li>
+<li id="menu-item-13364" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-13364"><a href="https://www.kyriba.com/solutions/use-case/fraud-prevention/">Enhance Fraud Protection</a></li>
+<li id="menu-item-13365" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-13365"><a href="https://www.kyriba.com/solutions/use-case/centralize-payments/">Centralize Payments</a></li>
+<li id="menu-item-13366" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-13366"><a href="https://www.kyriba.com/solutions/use-case/currency-risk/">FX Risk Management</a></li>
+<li id="menu-item-13367" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-13367"><a href="https://www.kyriba.com/solutions/use-case/cash-visibility/">Cash Visibility</a></li>
+</ul></div></div></div><div class="foo-col foo-nav-col"><div class="inner-foo-col"><h5>Solutions by Industry</h5><div class="menu-solutions-by-industry-container"><ul id="menu-solutions-by-industry" class="menu"><li id="menu-item-13377" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-13377"><a href="https://www.kyriba.com/solutions/industry/financial-services/">Financial Services</a></li>
+<li id="menu-item-13375" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-13375"><a href="https://www.kyriba.com/solutions/industry/healthcare/">Healthcare</a></li>
+<li id="menu-item-13374" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-13374"><a href="https://www.kyriba.com/solutions/industry/higher-education/">Higher Education</a></li>
+<li id="menu-item-13373" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-13373"><a href="https://www.kyriba.com/solutions/industry/insurance/">Insurance</a></li>
+<li id="menu-item-13381" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-13381"><a href="https://www.kyriba.com/solutions/industry/real-estate/">Real Estate</a></li>
+<li id="menu-item-13370" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-13370"><a href="https://www.kyriba.com/solutions/industry/retail/">Retail</a></li>
+<li id="menu-item-13930" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13930"><a href="https://www.kyriba.com/solutions/industry/">View All Industries</a></li>
+</ul></div></div></div><div class="foo-col foo-nav-col"><div class="inner-foo-col"><h5>Solutions by Role</h5><div class="menu-solutions-by-role-container"><ul id="menu-solutions-by-role" class="menu"><li id="menu-item-13382" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-13382"><a href="https://www.kyriba.com/solutions/role/treasury/">Treasury</a></li>
+<li id="menu-item-13383" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-13383"><a href="https://www.kyriba.com/solutions/role/cfo/">CFO</a></li>
+<li id="menu-item-13384" class="menu-item menu-item-type-post_type menu-item-object-solution menu-item-13384"><a href="https://www.kyriba.com/solutions/role/it/">IT</a></li>
+</ul></div></div></div><div class="foo-col foo-nav-col"><div class="inner-foo-col"><h5>CUSTOMERS</h5><div class="menu-customers-container"><ul id="menu-customers" class="menu"><li id="menu-item-1168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1168"><a href="https://www.kyriba.com/customers/">Our Customers</a></li>
+<li id="menu-item-1169" class="menu-item menu-item-type-taxonomy menu-item-object-resourcetype menu-item-1169"><a href="https://www.kyriba.com/resources/success-stories/">Success Stories</a></li>
+<li id="menu-item-15518" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15518"><a href="https://www.kyriba.com/customers/experience/">Customer Experience</a></li>
+<li id="menu-item-15519" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15519"><a href="https://www.kyriba.com/company/events/">Conferences</a></li>
+<li id="menu-item-15520" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15520"><a title="Community" target="_blank" rel="noopener noreferrer" href="http://kyriba.force.com/social/Login">Community</a></li>
+</ul></div></div></div><div class="foo-col foo-nav-col"><div class="inner-foo-col"><h5>PARTNERS</h5><div class="menu-partners-container"><ul id="menu-partners" class="menu"><li id="menu-item-1172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1172"><a href="https://www.kyriba.com/partner-ecosystem/">Partners Ecosystem</a></li>
+<li id="menu-item-1175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1175"><a href="https://www.kyriba.com/partners/become-a-partner/">Become a Partner</a></li>
+<li id="menu-item-1174" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1174"><a href="https://www.kyriba.com/partners/our-partners-worldwide/">Locate a Partner</a></li>
+<li id="menu-item-1173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1173"><a href="https://www.kyriba.com/partners/partner-resources/">Partner Resources</a></li>
+</ul></div></div></div><div class="foo-col foo-nav-col"><div class="inner-foo-col"><h5>RESOURCES</h5><div class="menu-resources-container"><ul id="menu-resources" class="menu"><li id="menu-item-16879" class="menu-item menu-item-type-taxonomy menu-item-object-resourcetype menu-item-16879"><a href="https://www.kyriba.com/resources/webinars/">Webinars</a></li>
+<li id="menu-item-16881" class="menu-item menu-item-type-taxonomy menu-item-object-resourcetype menu-item-16881"><a href="https://www.kyriba.com/resources/ebooks/">eBooks</a></li>
+<li id="menu-item-16883" class="menu-item menu-item-type-taxonomy menu-item-object-resourcetype menu-item-16883"><a href="https://www.kyriba.com/resources/success-stories/">Success Stories</a></li>
+<li id="menu-item-16884" class="menu-item menu-item-type-taxonomy menu-item-object-resourcetype menu-item-16884"><a href="https://www.kyriba.com/resources/faqs/">FAQs</a></li>
+<li id="menu-item-16880" class="menu-item menu-item-type-taxonomy menu-item-object-resourcetype menu-item-16880"><a href="https://www.kyriba.com/resources/videos/">Videos</a></li>
+<li id="menu-item-21583" class="menu-item menu-item-type-taxonomy menu-item-object-resourcetype menu-item-21583"><a href="https://www.kyriba.com/resources/podcasts/">Podcasts</a></li>
+<li id="menu-item-16882" class="menu-item menu-item-type-taxonomy menu-item-object-resourcetype menu-item-16882"><a href="https://www.kyriba.com/resources/fact-sheets/">Fact Sheets</a></li>
+<li id="menu-item-15730" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15730"><a target="_blank" rel="noopener noreferrer" href="https://info.kyriba.com/RequestaDemo-KDC.html">Demo</a></li>
+<li id="menu-item-15731" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15731"><a href="https://www.kyriba.com/solutions/">Solution Overview</a></li>
+<li id="menu-item-1181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1181"><a href="https://www.kyriba.com/blog/">Blog</a></li>
+<li id="menu-item-15732" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15732"><a href="https://www.kyriba.com/company/events/">Events</a></li>
+<li id="menu-item-15733" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-15733"><a href="https://www.kyriba.com/contact-kyriba/">Contact Us</a></li>
+</ul></div></div></div><div class="foo-col foo-nav-col"><div class="inner-foo-col"><h5>COMPANY</h5><div class="menu-company-container"><ul id="menu-company" class="menu"><li id="menu-item-1188" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1188"><a href="https://www.kyriba.com/company/about-kyriba/">About Us</a></li>
+<li id="menu-item-1186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1186"><a href="https://www.kyriba.com/company/recognition/">Recognition</a></li>
+<li id="menu-item-1187" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1187"><a href="https://www.kyriba.com/company/leadership/">Leadership</a></li>
+<li id="menu-item-1184" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1184"><a href="https://www.kyriba.com/company/events/">Events</a></li>
+<li id="menu-item-22002" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22002"><a href="https://www.kyriba.com/company/newsroom/">Newsroom</a></li>
+<li id="menu-item-1185" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1185"><a href="https://www.kyriba.com/company/careers/">Careers</a></li>
+<li id="menu-item-1189" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1189"><a href="https://www.kyriba.com/contact-kyriba/">Contact Us</a></li>
+</ul></div></div></div>					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+			<!--BE IXF: The following <div> block needs to be placed in the location where the link equity block will be displayed-->
+			<!--BE IXF: For your website, the location is in footer, after "foo-sec", before "foo-disc" -->
+			<div class="be-ix-link-block">
+			
+<!-- be_ixf, bodystr, body_1 -->
+<div class="be-related-link-container main"><div class="be-label">Also of Interest</div><ul class="be-list"><li class="be-list-item"><a class="be-related-link" href="https://www.kyriba.com/products/working-capital-management/">Working Capital Management</a></li><li class="be-list-item"><a class="be-related-link" href="https://www.kyriba.com/products/payments/">Payments</a></li><li class="be-list-item"><a class="be-related-link" href="https://www.kyriba.com/products/capabilities/security/">Security</a></li></ul></div>
+
+<!-- be_ixf, sdk, is -->
+</ul>
+			</div>
+			<!--BE IXF: end-->
+	<div class="foo-disc">
+		<div class="main cf">
+			<hr>
+			<div class="foo-disc-row cf animated delay-200" data-class="fadeIn">
+				                    <div class="foo-right">
+                        <div class="social-icn">
+                            <ul>
+                                                                    <li><a href="https://www.linkedin.com/company/kyriba/" target="_blank" class="fa fa-linkedin"></a></li>
+                                                                    <li><a href="https://www.facebook.com/Kyriba/" target="_blank" class="fa fa-facebook"></a></li>
+                                                                    <li><a href="https://twitter.com/kyribacorp" target="_blank" class="fa fa-twitter"></a></li>
+                                                                    <li><a href="https://www.instagram.com/livekyriba/" target="_blank" class="fa fa-instagram"></a></li>
+                                                                    <li><a href="https://www.youtube.com/user/kyribacorp" target="_blank" class="fa fa-youtube-play"></a></li>
+                                                                    <li><a href="https://www.glassdoor.co.in/Overview/Working-at-Kyriba-Corp-EI_IE260305.11,22.htm?countryRedirect=true" target="_blank" class="fa fa-glassdoor"></a></li>
+                                                            </ul>
+                        </div>
+                    </div>
+				
+				<div class="foo-left">
+					<div class="foo-disc-menu"><div class="menu-privacy-menu-container"><ul id="menu-privacy-menu" class="menu"><li id="menu-item-9445" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9445"><a title="Acceptable Use Policy" href="https://www.kyriba.com/acceptable-use-policy/">Acceptable Use Policy</a></li>
+<li id="menu-item-26789" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26789"><a href="https://www.kyriba.com/kyriba-technology-platform-customer-privacy-notice/">Kyriba Technology Platform Customer Privacy Notice</a></li>
+<li id="menu-item-22006" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22006"><a href="https://www.kyriba.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-21042" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21042"><a href="https://info.kyriba.com/ca-consumer-privacy-act-opt-out">CA Consumer Privacy Act &#8211; Opt Out</a></li>
+<li id="menu-item-9447" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9447"><a title="Cookies Policy" href="https://www.kyriba.com/cookies-policy/">Cookies Policy</a></li>
+<li id="menu-item-22008" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22008"><a href="https://www.kyriba.com/notice-of-right-to-opt-out-of-sale-of-personal-information-ca-residents/">Notice of Right to Opt-Out of Sale of Personal Information for California Residents</a></li>
+<li id="menu-item-24220" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-24220"><a href="#expand-legal">Ethics and Legal Compliance</a></li>
+</ul></div></div>					<div class="foo-copyright"><p>Copyright © 2020 Kyriba Corp. All rights reserved.</p>
+</div>				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+	<script type="text/javascript">
+var n = 0;
+var e = 0;
+
+var testInfo = '<div class="testimonial-video-col"><div class="blog-detall-img animated delay-200 fadeIn" data-class="fadeIn" style="background-image:url(\'/wp-content/uploads/2020/10/bridging-gap.png\');position:relative;width:100%;max-width:500px"><div style="width:200px;margin:auto;position:absolute;top:80%;left:30%;right:30%"><a href="/wp-content/uploads/2020/10/kyriba-2020101-bridging-gap-between-your-erp-global-banks.pdf" class="green-btn" style="color:#fff;background-color:#00C37F" data-title="View the infographic" title="View the infographic" target="_blank">View the infographic</a></div></div></div>';
+
+var viewRes = '<a href="/solutions/use-case/erp-migration/" class="green-btn" data-title="View all resources" title="View all resources">Learn more</a>';
+
+var activateBlock = '<div class="activate-liquidity-content animated delay-200 fadeIn" data-class="fadeIn">&nbsp;</div>';
+var innerERP = [
+    '<div class="kyriba-diffnt-col" style="padding:30px 0 0;min-height:380px;"><div class="inner-kyriba-diffnt" style="text-align:center;font-weight:bold;padding:0 6px;"><i class="kyriba-diffnt-icn"><img src="/wp-content/uploads/2020/06/top-panel-1.png" alt="logo" style="max-width:90px;margin-left:auto;margin-right:auto;"></i><p>Connectivity as a Service with bolt-on bank connectivity for ERPs to 1,000+ banks reducing your ERP migration time by 80%+</p></div><div style="width:100%;height:80px;background-color:#00c37f;text-align:center;color:#fff;position:absolute;bottom:0;border-bottom-left-radius:23px;border-bottom-right-radius:23px;"><h4 style="padding-top:24px;color:#fff;font-size:18px;font-style:normal;">Bank Connectivity</h4></div></div>',
+	'<div class="kyriba-diffnt-col" style="padding:30px 0 0;min-height:380px;"><div class="inner-kyriba-diffnt" style="text-align:center;font-weight:bold;padding:0 6px;"><i class="kyriba-diffnt-icn"><img src="/wp-content/uploads/2020/06/top-panel-2.png" alt="logo" style="max-width:90px;margin-left:auto;margin-right:auto;"></i><p>Customized payment fraud management utilizing detection rules coupled with machine learning</p></div><div style="width:100%;height:80px;background-color:#000000;text-align:center;color:#fff;position:absolute;bottom:0;border-bottom-left-radius:23px;border-bottom-right-radius:23px;"><h4 style="padding-top:24px;color:#fff;font-size:18px;font-style:normal;">Payment Fraud</h4></div></div>',
+	'<div class="kyriba-diffnt-col" style="padding:30px 0 0;min-height:380px;"><div class="inner-kyriba-diffnt" style="text-align:center;font-weight:bold;padding:0 6px;"><i class="kyriba-diffnt-icn"><img src="/wp-content/uploads/2020/06/top-panel-3.png" alt="logo" style="max-width:90px;margin-left:auto;margin-right:auto;"></i><p>45,000+ pre-developed and bank tested payment format scenarios shared across all clients</p></div><div style="width:100%;height:80px;background-color:#f57e20;text-align:center;color:#fff;position:absolute;bottom:0;border-bottom-left-radius:23px;border-bottom-right-radius:23px;"><h4 style="padding-top:14px;color:#fff;font-size:18px;font-style:normal;">Payment Format<br>Library</h4></div></div>',
+	'<div class="kyriba-diffnt-col" style="padding:30px 0 0;min-height:380px;"><div class="inner-kyriba-diffnt" style="text-align:center;font-weight:bold;padding:0 6px;"><i class="kyriba-diffnt-icn"><img src="/wp-content/uploads/2020/06/top-panel-4.png" alt="logo" style="max-width:90px;margin-left:auto;margin-right:auto;"></i><p>Global bank monitoring of all incoming and outgoing files; fully outsourced banking support</p></div><div style="width:100%;height:80px;background-color:#023cba;text-align:center;color:#fff;position:absolute;bottom:0;border-bottom-left-radius:23px;border-bottom-right-radius:23px;"><h4 style="padding-top:24px;color:#fff;font-size:18px;font-style:normal;">Bank Monitoring</h4></div></div>'
+	];
+var testBlock = '<div class="testimonial-fluid"><div class="erp-quote">Pre-built, pre-tested bank functionality can accelerate global banking connectivity projects by more than 80 percent.</div></div>';
+var newTag = '<span class="leadership-tag" style="background-color:#ffba3e">Blog</span>';
+var newCTA = '<span class="green-btn" title="Read more">Read the blog</span>';
+
+var videoSpan = '<span class="resource-cat blog-date Success Stories" style="background-color: #ffba3e">Success Story</span>';
+
+var mmButtons = '<a class="white-btn" href="/resource/kyriba-an-offering-for-mid-market/" target="_blank" data-title="Watch the overview" title="Watch the overview" style="margin-bottom:10px;margin-right:10px;">Watch the overview</a><a class="white-btn" href="http://info.kyriba.uk/kyriba-for-mid-market-demo" target="_blank" data-title="Contact us" title="Contact us">Contact us</a>';
+
+var legalMore = '<a href="#expand-legal" id="expand-legal" style="font-size: 13px; color: #000;">Ethics and Legal Compliance</a><div class="more-legal" style="width:260px;padding-left:5px;border:1px solid #ccc;"><a href="/wp-content/files_live/content/legal/kyriba-code-of-conduct.pdf" target="_blank">Kyriba Code of Business Conduct</a><br><a href="/wp-content/files_live/content/legal/anti-bribery-corruption.pdf" target="_blank">Anti-Bribery and Corruption Policy</a><br><a href="/wp-content/files_live/content/legal/anti-slavery-human-trafficking-policy.pdf" target="_blank">Anti-Slavery and Human Trafficking Policy</a><br><a href="/wp-content/files_live/content/legal/kyriba-environmental-social-governance-policy.pdf" target="_blank">Environmental, Social &amp; Governance Policy</a><br><a href="/wp-content/files_live/content/legal/global-sanctions-export-policy.pdf" target="_blank">Global Sanctions Export Policy</a></div>';
+
+var accT = '<div class="inner-leadership-content"><h4>Accounts Team</h4>"Our team is suffering from wasted time on manual processes. If I continue to do nothing the Accounts Team will suffer from poor productivity."</div>';
+
+var fdCon = '<div class="inner-leadership-content"><h4>Finance Director / Controller</h4>"We do not have a clear view of our cash. If I continue to do nothing we suffer from excess idle cash or from not paying down debt efficiently."</div>';
+
+var cfoQ = '<div class="inner-leadership-content"><h4>Chief Finance Officer</h4>"I need to have greater visibility into the company\'s current and future cash positions. Certainty and predictability of my cash flow is the only way I can be sure our company is protected from fraud and drive growth."</div>';
+
+// var testInfo = '<a href="/wp-content/uploads/2020/10/kyriba-2020101-bridging-gap-between-your-erp-global-banks.pdf" target="_blank" rel="noopener noreferrer"></a>';
+
+function getSliderSettings(){
+  return {
+   slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    fade: true,        
+    autoplay:true,
+    autoplaySpeed: 6000,
+  }
+}
+
+jQuery(window).on('load', function() {
+  jQuery('.header-slider').slick('unslick');
+  jQuery('.header-slider').slick(getSliderSettings());
+});
+
+jQuery(document).ready(function () {
+// Infographic Resource Type
+jQuery('body.postid-27245 .testimonial-content').css("padding","0");
+jQuery('body.postid-27245 .green-btn').first().replaceWith(viewRes);
+jQuery('body.postid-27245 .testimonial-video-col').replaceWith(testInfo);
+
+jQuery('.inner-leadership-content:contains("Bridging the Gap Between") .resource-cat').text('Infographic');
+jQuery('.inner-leadership-content:contains("Bridging the Gap Between") .green-btn').text('View the Infographic');
+
+jQuery('.resource-filter-row .leadership-slider-col').last().addClass("resource-last");
+var countdiv = jQuery('.resource-filter-row .resource-last').length;
+if(countdiv > 2){
+var result = countdiv - 2;
+jQuery('.resource-filter-row .resource-last').slice(0,result).removeClass('resource-last');
+}
+	
+    jQuery('#menu-item-24220 a').replaceWith(legalMore);
+    jQuery('#expand-cookies').click(function(){
+		jQuery('.more-cookies').slideToggle("slow");
+	});
+     jQuery('#expand-choices').click(function(){
+		jQuery('.more-choices').slideToggle("slow");
+	});
+     jQuery('#expand-legal').click(function(){
+		jQuery('.more-legal').slideToggle("slow");
+                return false;
+	});
+
+jQuery('body.postid-25105 .leadership-slider-col').click(function(){return false;}).mouseover(function(){jQuery(this).css('cursor', 'default');}).attr('href','#');
+// jQuery('body.postid-25105 .home-banner-content > .white-btn').replaceWith(mmButtons);
+jQuery('body.postid-25105 .leadership-slider-item:nth-child(1) .inner-leadership-content').replaceWith(accT);
+jQuery('body.postid-25105 .leadership-slider-item:nth-child(2) .inner-leadership-content').replaceWith(fdCon);
+jQuery('body.postid-25105 .leadership-slider-item:nth-child(3) .inner-leadership-content').replaceWith(cfoQ);
+
+var successTitle = '<h2>Related Success Stories</h2>';
+ jQuery('.related-casestudy-title h2').replaceWith(successTitle);
+
+var covidTitle = '<h2>Webinars</h2>';
+ jQuery('body.page-id-23445 .leadership-sec h2').replaceWith(covidTitle);
+ jQuery('body.page-id-24293 .leadership-sec h2').replaceWith(covidTitle);
+
+jQuery.each(jQuery('body.page-id-23445 .leadership-slider-item'), function(index, value) {
+   var dataID = jQuery(this).attr("data-id", index);
+   if (dataID  == 0) { 
+       jQuery('.leadership-tag').replaceWith('Upcoming Webinar');
+       jQuery('.green-btn').replaceWith('Register');
+    }
+});
+
+jQuery('.related-casestudy-item[href*="wework"]').css('display','none !important');
+
+jQuery('.inner-leadership-content').each(function() {
+ if (jQuery('.resource-cat').length > 1) {
+    jQuery('.resource-cat:contains("Success")').hide();
+  } 
+});
+
+if ((window.location.href.indexOf('?s=Kyriba+Now&srchtype=all') > 0) || (window.location.href.indexOf('?s=kyriba+now&srchtype=all') > 0) || (window.location.href.indexOf('?s=Kyriba+now&srchtype=all') > 0) || (window.location.href.indexOf('?s=kyriba+Now&srchtype=all') > 0) || (window.location.href.indexOf('?s=KYRIBA+NOW&srchtype=all') > 0)) {
+            jQuery('.search-result-col:contains("Kyriba Now")').hide();
+            }
+
+jQuery('.latest-faq-sec ul li:nth-child(7)').css('display','none');
+jQuery('.latest-faq-sec ul li:nth-child(8)').css('display','none');
+jQuery('.latest-faq-sec ul li:nth-child(9)').css('display','none');
+
+// Loop over ERP Sliders
+jQuery('body.erp-migration .kyriba-diffnt-item:nth-child(1) .kyriba-diffnt-col').replaceWith(innerERP[0]);
+jQuery('body.erp-migration .kyriba-diffnt-item:nth-child(2) .kyriba-diffnt-col').replaceWith(innerERP[1]);
+jQuery('body.erp-migration .kyriba-diffnt-item:nth-child(3) .kyriba-diffnt-col').replaceWith(innerERP[2]);
+jQuery('body.erp-migration .kyriba-diffnt-item:nth-child(4) .kyriba-diffnt-col').replaceWith(innerERP[3]);
+
+jQuery('body.erp-migration .leadership-slider-item .leadership-tag').last().replaceWith(newTag);
+jQuery('body.erp-migration .leadership-slider-item .green-btn').last().replaceWith(newCTA);
+jQuery('body.erp-migration .testimonial-fluid').replaceWith(testBlock);
+
+// Loop over ERP Sliders
+jQuery('body.microsoft-dynamics-365 .kyriba-diffnt-item:nth-child(1) .kyriba-diffnt-col').replaceWith(innerERP[0]);
+jQuery('body.microsoft-dynamics-365 .kyriba-diffnt-item:nth-child(2) .kyriba-diffnt-col').replaceWith(innerERP[1]);
+jQuery('body.microsoft-dynamics-365 .kyriba-diffnt-item:nth-child(3) .kyriba-diffnt-col').replaceWith(innerERP[2]);
+jQuery('body.microsoft-dynamics-365 .kyriba-diffnt-item:nth-child(4) .kyriba-diffnt-col').replaceWith(innerERP[3]);
+
+jQuery('body.microsoft-dynamics-365 .get-touch-main-sec > .main').before('<div class="animated delay-200 fadeIn" data-class="fadeIn" style="font-size:36px;color:#fff;max-width:840px;margin:auto;text-align:center;padding:60px 0 20px;"><p class="ms-p">Learn how Kyriba’s integrated Payments Network can enhance Microsoft Dynamic 365 Finance.</p></div>');
+
+ jQuery('body.microsoft-dynamics-365 .activate-liquidity-content').replaceWith(activateBlock);
+
+jQuery.cookieCuttr({
+cookieAnalytics: false,
+cookiePolicyLink: '/cookies-policy',
+cookieMessage: '<div class="cc-main cf"><div id="child-div">We use cookies to improve website functionality, analyze traffic trends and personalize site content. To learn about how we utilize cookies or to opt out, please read our <a href="{{cookiePolicyLink}}" title="how we use or opt-out of cookies">cookies policy</a>.</div>',
+cookieResetButton: false,
+cookieNotificatonLocationBottom: true,
+cookieDeclineButton: false,
+cookieWhatAreTheyLink: false,
+cookieAcceptButtonText: 'Accept Cookies',
+cookieResetButtonText: 'Reset Cookies',
+cookieExpires: 395,
+cookieOutExpires: 36500
+  });
+n = jQuery('.cc-cookie-reset').length;
+if (n > 0) {
+ jQuery('.cc-cookies').css({"height":"74px","width":"100%","left":"0","background-color":"#707070"});
+}
+});
+
+jQuery(document).ajaxStop(function () {
+if (jQuery('.resource-filter-content .resource-last').length > 1) {
+jQuery('html, body').animate({scrollTop: jQuery(".resource-filter-content .resource-last").offset().top}, 1000); }
+jQuery('.inner-leadership-content:contains("Bridging the Gap Between") .resource-cat').text('Infographic');
+jQuery('.inner-leadership-content:contains("Bridging the Gap Between") .leadership-tag').text('Infographics');
+jQuery('.inner-leadership-content:contains("Bridging the Gap Between") .green-btn').text('View the Infographic');
+});
+
+jQuery(document).ajaxComplete(function () {
+	
+jQuery('.resource-filter-row .leadership-slider-col').last().addClass("resource-last");
+var countdiv = jQuery('.resource-filter-row .resource-last').length;
+if(countdiv > 2){
+  var result = countdiv - 2;
+  jQuery('.resource-filter-row .resource-last').slice(0,result).removeClass('resource-last');
+}
+
+jQuery('.related-casestudy-item[href*="wework"]').css('display','none !important');
+n = jQuery('.cc-cookie-reset').length;
+if (n > 0) {
+ jQuery('.cc-cookies').css({"height":"74px","width":"100%","left":"0","background-color":"#707070"});
+}
+});
+</script>
+<!-- Facebook website tag code -->
+<script type="text/javascript">
+if (jQuery.cookie('cc_cookie_decline') == "cc_cookie_decline") {
+// do nothing 
+} else {
+	!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+	n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+	n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+	t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+	document,'script','https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '171262069887930');
+	fbq('track', 'PageView');fbq('track', 'ViewContent');fbq('track', 'Lead');
+}
+</script><noscript><img alt="PixelCode" height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=171262069887930&ev=PageView&noscript=1" /></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+
+<!-- Linkedin website tag code -->
+<script type="text/javascript">
+if (jQuery.cookie('cc_cookie_decline') == "cc_cookie_decline") {
+// do nothing 
+} else {
+_linkedin_data_partner_id = "23395";
+}
+</script>
+<script type="text/javascript">
+if (jQuery.cookie('cc_cookie_decline') == "cc_cookie_decline") {
+// do nothing 
+} else {
+		(function(){var s = document.getElementsByTagName("script")[0];
+			var b = document.createElement("script");
+			b.type = "text/javascript";b.async = true;
+			b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+			s.parentNode.insertBefore(b, s);})();
+}
+</script>
+<!-- End Linkedin website tag code -->
+
+<!-- Twitter universal website tag code -->
+<script>
+if (jQuery.cookie('cc_cookie_decline') == "cc_cookie_decline") {
+// do nothing 
+} else {
+    !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+    },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='/wp-content/themes/kyriba/assets/js/uwt1.js',
+    a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+     // Insert Twitter Pixel ID and Standard Event data below
+    twq('init','nvh2a');
+   twq('track','PageView');
+}
+</script>
+<!-- End Twitter universal website tag code -->
+
+<!-- Engagio Script -->
+<script type="text/javascript" charset="utf-8">
+if (jQuery.cookie('cc_cookie_decline') == "cc_cookie_decline") {
+  // do nothing
+} else {
+var _eiq = _eiq || [];
+  var _engagio_settings = {
+    accountId: "ec7e63aef48ba28213585894f24df13a0767cde1"
+  };
+  (function() {
+    var ei = document.createElement('script'); ei.type = 'text/javascript'; ei.async = true;
+    ei.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'web-analytics.engagio.com/js/ei.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ei, s);
+  })();
+}
+</script>
+<!-- End Engagio script -->
+
+<!-- Mutiny Script -->
+<script type="text/javascript" charset="utf-8">
+if (jQuery.cookie('cc_cookie_decline') == "cc_cookie_decline") {
+  // do nothing
+} else {
+  (function() {
+    window.mutinyTrackConversion=function(a){var b="b59d42794ada72c7";var c="mutiny.user.token";var d=("; "+document.cookie).split("; "+c+"=");var e=d.length===2?d.pop().split(";").shift():null;var f="https://api.mutinyhq.io/v2/i/conversions/t?token=".concat(b);var g=new XMLHttpRequest;g.open("POST",f);g.send(JSON.stringify({visitor_token:e,form_data:{name:a||"pixel"}}))};
+    window.mutinyTrackConversion('signup-complete');
+  })();}
+</script>
+<!-- End Mutiny script -->
+
+<!-- Pardot Script -->
+<script type="text/javascript" charset="utf-8">
+if (jQuery.cookie('cc_cookie_decline') == "cc_cookie_decline") {
+  // do nothing
+} else {
+piAId = '105372';
+piCId = '1185';
+piHostname = 'pi.pardot.com';
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();}
+</script>
+<!-- End Pardot website tag code -->
+
+<script type="text/javascript" charset="utf-8">
+if (jQuery.cookie('cc_cookie_decline') == "cc_cookie_decline") {
+  // do nothing
+} else {
+"use strict";
+!function() {
+  var t = window.driftt = window.drift = window.driftt || [];
+  if (!t.init) {
+    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+    t.factory = function(e) {
+      return function() {
+        var n = Array.prototype.slice.call(arguments);
+        return n.unshift(e), t.push(n), t;
+      };
+    }, t.methods.forEach(function(e) {
+      t[e] = t.factory(e);
+    }), t.load = function(t) {
+      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+      var i = document.getElementsByTagName("script")[0];
+      i.parentNode.insertBefore(o, i);
+    };
+  }
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('uu44ap2p4yv9');
+}
+</script>
+<link data-minify="1" rel='stylesheet' id='wpml-legacy-dropdown-0-css'  href='https://www.kyriba.com/wp-content/cache/min/1/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/style-c6f8ef0e4427bd80fa5fa6c8c9f9c2f3.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/themes/kyriba/assets/js/slick.min.js'></script>
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/themes/kyriba/assets/js/aos.js'></script>
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/themes/kyriba/assets/js/curtains.min.js'></script>
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/themes/kyriba/assets/js/easyResponsiveTabs.js'></script>
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/themes/kyriba/assets/js/jquery.magnific-popup.min.js'></script>
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/themes/kyriba/assets/js/waypoints.min.js'></script>
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/themes/kyriba/assets/js/jquery.counterup.min.js'></script>
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/themes/kyriba/assets/js/sticky-kit.js'></script>
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/themes/kyriba/assets/js/stickyfill.min.js'></script>
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/themes/kyriba/assets/js/circle-progress.js'></script>
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/themes/kyriba/assets/js/odometer.js'></script>
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/themes/kyriba/assets/js/jquery.menu-aim.js'></script>
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/themes/kyriba/assets/js/jquery.rwdImageMaps.min.js'></script>
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/cache/busting/1/wp-content/themes/kyriba/assets/js/general-3.6.js'></script>
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/cache/busting/1/wp-content/plugins/gravityforms/js/jquery.json.min-2.4.21.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"https:\/\/www.kyriba.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/www.kyriba.com\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"https:\/\/www.kyriba.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/www.kyriba.com\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/cache/busting/1/wp-content/plugins/gravityforms/js/gravityforms.min-2.4.21.js'></script>
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/cache/busting/1/wp-content/plugins/gravityforms/js/placeholders.jquery.min-2.4.21.js'></script>
+<script type='text/javascript' src='https://www.kyriba.com/wp-content/cache/busting/1/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/legacy-dropdown/script-1.js'></script>
+
+<script>
+jQuery( window ).load(function() {
+	jQuery('body').addClass("page-loaded");
+});
+
+</script>
+
+</body>
+</html>
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->
